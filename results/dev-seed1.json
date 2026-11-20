@@ -1,0 +1,6340 @@
+{
+ "cores_used": 1,
+ "cpu": "Intel(R) Xeon(R) Processor @ 2.10GHz",
+ "date": "2026-11-20",
+ "k": 4,
+ "model": "scripted fake model (gatedmind.model), no real model",
+ "n_docs": 303,
+ "n_people": 40,
+ "n_questions": 200,
+ "python": "3.13.18",
+ "retrievers": {
+  "bm25": {
+   "details": {
+    "none": [
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q001"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d027",
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q002"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q003"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q004"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q005"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q006"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d008",
+       "d089",
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q007"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q008"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q009"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q010"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q011"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q012"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q013"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d269"
+      ],
+      "overblocked": false,
+      "q": "q014"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d095",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q015"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q016"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d039",
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q017"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d027",
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q018"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q019"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q020"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q021"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q022"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d053",
+       "d061"
+      ],
+      "overblocked": false,
+      "q": "q023"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d172",
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q024"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q025"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q026"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d050",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q027"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d202",
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q028"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q029"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d217",
+       "d269"
+      ],
+      "overblocked": false,
+      "q": "q030"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d066",
+       "d242"
+      ],
+      "overblocked": false,
+      "q": "q031"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q032"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q033"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245"
+      ],
+      "overblocked": false,
+      "q": "q034"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d001",
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q036"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q037"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q038"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136",
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q039"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q041"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d091",
+       "d253"
+      ],
+      "overblocked": false,
+      "q": "q042"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d179",
+       "d254"
+      ],
+      "overblocked": false,
+      "q": "q043"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q044"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q046"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d062",
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q047"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d093",
+       "d212"
+      ],
+      "overblocked": false,
+      "q": "q048"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q050"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q051"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d166",
+       "d187",
+       "d209"
+      ],
+      "overblocked": false,
+      "q": "q052"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301"
+      ],
+      "overblocked": false,
+      "q": "q053"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d029",
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q054"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d206"
+      ],
+      "overblocked": false,
+      "q": "q055"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d210"
+      ],
+      "overblocked": false,
+      "q": "q056"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d232"
+      ],
+      "overblocked": false,
+      "q": "q058"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q059"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d062",
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q060"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d081",
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q062"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q063"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q064"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q065"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d075",
+       "d276",
+       "d277",
+       "d278"
+      ],
+      "overblocked": true,
+      "q": "q066"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282",
+       "d283"
+      ],
+      "overblocked": true,
+      "q": "q070"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q071"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": true,
+      "q": "q072"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294",
+       "d295"
+      ],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d276",
+       "d277",
+       "d278",
+       "d279"
+      ],
+      "overblocked": true,
+      "q": "q074"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282",
+       "d283"
+      ],
+      "overblocked": true,
+      "q": "q078"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294",
+       "d295"
+      ],
+      "overblocked": true,
+      "q": "q081"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d276",
+       "d277",
+       "d278",
+       "d279"
+      ],
+      "overblocked": true,
+      "q": "q082"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q083"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282",
+       "d283"
+      ],
+      "overblocked": true,
+      "q": "q086"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": true,
+      "q": "q088"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294",
+       "d295"
+      ],
+      "overblocked": true,
+      "q": "q089"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d075",
+       "d276",
+       "d277"
+      ],
+      "overblocked": true,
+      "q": "q090"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282",
+       "d283"
+      ],
+      "overblocked": true,
+      "q": "q094"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q096"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q097"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d031"
+      ],
+      "overblocked": false,
+      "q": "q098"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d033"
+      ],
+      "overblocked": false,
+      "q": "q099"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q100"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q101"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d193"
+      ],
+      "overblocked": false,
+      "q": "q102"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d021"
+      ],
+      "overblocked": false,
+      "q": "q103"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d131"
+      ],
+      "overblocked": false,
+      "q": "q104"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d060"
+      ],
+      "overblocked": false,
+      "q": "q105"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d044",
+       "d105",
+       "d149"
+      ],
+      "overblocked": false,
+      "q": "q107"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q108"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q109"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q110"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d065",
+       "d081"
+      ],
+      "overblocked": false,
+      "q": "q111"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q112"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q113"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d038",
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q115"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d142",
+       "d159",
+       "d211"
+      ],
+      "overblocked": false,
+      "q": "q117"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q118"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d080",
+       "d135"
+      ],
+      "overblocked": false,
+      "q": "q119"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": false,
+      "q": "q121"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d177",
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q123"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d050",
+       "d079",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q125"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d021",
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q127"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d059",
+       "d228"
+      ],
+      "overblocked": false,
+      "q": "q129"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d131",
+       "d234"
+      ],
+      "overblocked": false,
+      "q": "q131"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q132"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q133"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012",
+       "d050",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q135"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d126",
+       "d192",
+       "d199"
+      ],
+      "overblocked": false,
+      "q": "q137"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d095"
+      ],
+      "overblocked": false,
+      "q": "q138"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136",
+       "d164"
+      ],
+      "overblocked": false,
+      "q": "q139"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013"
+      ],
+      "overblocked": false,
+      "q": "q140"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d138",
+       "d151"
+      ],
+      "overblocked": false,
+      "q": "q141"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d077",
+       "d107"
+      ],
+      "overblocked": false,
+      "q": "q142"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d096",
+       "d106"
+      ],
+      "overblocked": false,
+      "q": "q143"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d072",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q145"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d023",
+       "d053"
+      ],
+      "overblocked": false,
+      "q": "q147"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d287"
+      ],
+      "overblocked": false,
+      "q": "q149"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q150"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q151"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q152"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d166",
+       "d187",
+       "d209"
+      ],
+      "overblocked": false,
+      "q": "q153"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q154"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q155"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d092",
+       "d128"
+      ],
+      "overblocked": false,
+      "q": "q157"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d014",
+       "d017"
+      ],
+      "overblocked": false,
+      "q": "q158"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d030",
+       "d046",
+       "d113",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q159"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d015",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q160"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q161"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q163"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d095",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q164"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089"
+      ],
+      "overblocked": false,
+      "q": "q165"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q166"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d050",
+       "d079",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q167"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d072",
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q169"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d142"
+      ],
+      "overblocked": false,
+      "q": "q170"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d152",
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q171"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q172"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d177",
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q173"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q175"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q177"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q179"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d013",
+       "d019",
+       "d026"
+      ],
+      "overblocked": false,
+      "q": "q181"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d183",
+       "d301"
+      ],
+      "overblocked": false,
+      "q": "q182"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q183"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q184"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d182",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q185"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q186"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q187"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d275"
+      ],
+      "overblocked": false,
+      "q": "q188"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d043",
+       "d062",
+       "d215"
+      ],
+      "overblocked": false,
+      "q": "q189"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d105"
+      ],
+      "overblocked": false,
+      "q": "q190"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d231",
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q191"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q193"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q195"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d072",
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q197"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d081",
+       "d179"
+      ],
+      "overblocked": false,
+      "q": "q199"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d115",
+       "d148"
+      ],
+      "overblocked": false,
+      "q": "q200"
+     }
+    ],
+    "postfilter": [
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q066"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q070"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q071"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q072"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q074"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q078"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q081"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q082"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q083"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q086"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q088"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q089"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q090"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q094"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q112"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q193"
+     }
+    ],
+    "prefilter": [],
+    "redact": [
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q001"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": true,
+      "q": "q002"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q003"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q004"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q005"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q006"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d008",
+       "d089",
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q007"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q008"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q009"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q010"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q012"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q013"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q014"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q015"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q016"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d039",
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q017"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": true,
+      "q": "q018"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q019"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q021"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q022"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d053"
+      ],
+      "overblocked": false,
+      "q": "q023"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d172",
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q024"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q025"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q026"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d050"
+      ],
+      "overblocked": false,
+      "q": "q027"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d202",
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q028"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q029"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d217"
+      ],
+      "overblocked": true,
+      "q": "q030"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d242"
+      ],
+      "overblocked": false,
+      "q": "q031"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243"
+      ],
+      "overblocked": false,
+      "q": "q032"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244"
+      ],
+      "overblocked": false,
+      "q": "q033"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245"
+      ],
+      "overblocked": false,
+      "q": "q034"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q036"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q037"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q038"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q039"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q041"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d253"
+      ],
+      "overblocked": false,
+      "q": "q042"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d254"
+      ],
+      "overblocked": false,
+      "q": "q043"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q044"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q046"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d062",
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q047"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d093"
+      ],
+      "overblocked": false,
+      "q": "q048"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d130"
+      ],
+      "overblocked": false,
+      "q": "q050"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q051"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d166",
+       "d209"
+      ],
+      "overblocked": false,
+      "q": "q052"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d029",
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q054"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d206"
+      ],
+      "overblocked": false,
+      "q": "q055"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d210"
+      ],
+      "overblocked": false,
+      "q": "q056"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d232"
+      ],
+      "overblocked": false,
+      "q": "q058"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060"
+      ],
+      "overblocked": false,
+      "q": "q059"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d062",
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q060"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q062"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d130"
+      ],
+      "overblocked": false,
+      "q": "q063"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q064"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d090"
+      ],
+      "overblocked": false,
+      "q": "q065"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d276",
+       "d277",
+       "d278"
+      ],
+      "overblocked": true,
+      "q": "q066"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285"
+      ],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q070"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q071"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q072"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d276",
+       "d277",
+       "d278",
+       "d279"
+      ],
+      "overblocked": true,
+      "q": "q074"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285"
+      ],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q078"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q081"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d276",
+       "d277",
+       "d278",
+       "d279"
+      ],
+      "overblocked": true,
+      "q": "q082"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q083"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285"
+      ],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q086"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q088"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q089"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d075",
+       "d276"
+      ],
+      "overblocked": true,
+      "q": "q090"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285"
+      ],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q094"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q097"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d031"
+      ],
+      "overblocked": false,
+      "q": "q098"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d033"
+      ],
+      "overblocked": false,
+      "q": "q099"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q101"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d193"
+      ],
+      "overblocked": false,
+      "q": "q102"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d021"
+      ],
+      "overblocked": false,
+      "q": "q103"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d131"
+      ],
+      "overblocked": false,
+      "q": "q104"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d044",
+       "d105",
+       "d149"
+      ],
+      "overblocked": false,
+      "q": "q107"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113"
+      ],
+      "overblocked": false,
+      "q": "q109"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d163",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q110"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d065"
+      ],
+      "overblocked": false,
+      "q": "q111"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q112"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q113"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d038",
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q115"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d142",
+       "d211"
+      ],
+      "overblocked": false,
+      "q": "q117"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q118"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d135"
+      ],
+      "overblocked": false,
+      "q": "q119"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d177"
+      ],
+      "overblocked": false,
+      "q": "q123"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q125"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q127"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d059",
+       "d228"
+      ],
+      "overblocked": false,
+      "q": "q129"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d131",
+       "d234"
+      ],
+      "overblocked": false,
+      "q": "q131"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q133"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012"
+      ],
+      "overblocked": false,
+      "q": "q135"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d126",
+       "d192",
+       "d199"
+      ],
+      "overblocked": false,
+      "q": "q137"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136",
+       "d164"
+      ],
+      "overblocked": false,
+      "q": "q139"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d138",
+       "d151"
+      ],
+      "overblocked": false,
+      "q": "q141"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d077"
+      ],
+      "overblocked": false,
+      "q": "q142"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d096"
+      ],
+      "overblocked": false,
+      "q": "q143"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q145"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d023",
+       "d053"
+      ],
+      "overblocked": false,
+      "q": "q147"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285"
+      ],
+      "overblocked": false,
+      "q": "q149"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q151"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q152"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d166",
+       "d209"
+      ],
+      "overblocked": false,
+      "q": "q153"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q154"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q155"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d092",
+       "d128"
+      ],
+      "overblocked": false,
+      "q": "q157"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d014"
+      ],
+      "overblocked": false,
+      "q": "q158"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d030",
+       "d046"
+      ],
+      "overblocked": false,
+      "q": "q159"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d015"
+      ],
+      "overblocked": false,
+      "q": "q160"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q161"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q163"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q164"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089"
+      ],
+      "overblocked": false,
+      "q": "q165"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q166"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q167"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q169"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d142"
+      ],
+      "overblocked": false,
+      "q": "q170"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d152"
+      ],
+      "overblocked": false,
+      "q": "q171"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d177"
+      ],
+      "overblocked": false,
+      "q": "q173"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": true,
+      "q": "q175"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q177"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086"
+      ],
+      "overblocked": false,
+      "q": "q179"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q181"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q182"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q183"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q184"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d182"
+      ],
+      "overblocked": false,
+      "q": "q185"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q186"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d072"
+      ],
+      "overblocked": false,
+      "q": "q187"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062"
+      ],
+      "overblocked": false,
+      "q": "q189"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d231"
+      ],
+      "overblocked": false,
+      "q": "q191"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062"
+      ],
+      "overblocked": true,
+      "q": "q193"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113"
+      ],
+      "overblocked": false,
+      "q": "q195"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d072",
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q197"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d179"
+      ],
+      "overblocked": false,
+      "q": "q199"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d115",
+       "d148"
+      ],
+      "overblocked": false,
+      "q": "q200"
+     }
+    ]
+   },
+   "modes": {
+    "none": {
+     "accuracy": {
+      "ci": [
+       0.46,
+       0.39233051748177505,
+       0.529177108651742
+      ],
+      "k": 92,
+      "n": 200
+     },
+     "chunks_to_model_mean": 4.0,
+     "latency_p50_ci": [
+      0.102,
+      0.107
+     ],
+     "latency_p50_ms": 0.105,
+     "latency_p95_ci": [
+      0.133,
+      0.148
+     ],
+     "latency_p95_ms": 0.142,
+     "leak_rate": {
+      "ci": [
+       0.845,
+       0.7883930935816389,
+       0.8886036310167765
+      ],
+      "k": 169,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": null,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.25806451612903225,
+       0.18913607905148433,
+       0.3415326060132605
+      ],
+      "k": 32,
+      "n": 124
+     }
+    },
+    "postfilter": {
+     "accuracy": {
+      "ci": [
+       0.84,
+       0.782859297881253,
+       0.884325879983852
+      ],
+      "k": 168,
+      "n": 200
+     },
+     "chunks_to_model_mean": 1.415,
+     "latency_p50_ci": [
+      0.209,
+      0.236
+     ],
+     "latency_p50_ms": 0.22,
+     "latency_p95_ci": [
+      0.42,
+      0.499
+     ],
+     "latency_p95_ms": 0.458,
+     "leak_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.018845326668962936
+      ],
+      "k": 0,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": 0.015,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.25806451612903225,
+       0.18913607905148433,
+       0.3415326060132605
+      ],
+      "k": 32,
+      "n": 124
+     }
+    },
+    "prefilter": {
+     "accuracy": {
+      "ci": [
+       1.0,
+       0.9811546733310369,
+       0.9999999999999999
+      ],
+      "k": 200,
+      "n": 200
+     },
+     "chunks_to_model_mean": 3.95,
+     "latency_p50_ci": [
+      0.217,
+      0.242
+     ],
+     "latency_p50_ms": 0.226,
+     "latency_p95_ci": [
+      0.386,
+      0.445
+     ],
+     "latency_p95_ms": 0.413,
+     "leak_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.018845326668962936
+      ],
+      "k": 0,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": 0.015,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.03004861580047276
+      ],
+      "k": 0,
+      "n": 124
+     }
+    },
+    "redact": {
+     "accuracy": {
+      "ci": [
+       0.425,
+       0.3585361249314706,
+       0.4942906740688737
+      ],
+      "k": 85,
+      "n": 200
+     },
+     "chunks_to_model_mean": 4.0,
+     "latency_p50_ci": [
+      0.264,
+      0.294
+     ],
+     "latency_p50_ms": 0.274,
+     "latency_p95_ci": [
+      0.448,
+      0.498
+     ],
+     "latency_p95_ms": 0.477,
+     "leak_rate": {
+      "ci": [
+       0.66,
+       0.5918849547167886,
+       0.7220845407491434
+      ],
+      "k": 132,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": null,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.3225806451612903,
+       0.246703990895697,
+       0.4091197114851159
+      ],
+      "k": 40,
+      "n": 124
+     }
+    }
+   }
+  },
+  "hybrid": {
+   "details": {
+    "none": [
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q001"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d027",
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q002"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q003"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q004"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q005"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q006"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d008",
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q007"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q008"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q009"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q010"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q011"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q012"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q013"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d269"
+      ],
+      "overblocked": false,
+      "q": "q014"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q015"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q016"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d039",
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q017"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d027",
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q018"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q019"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q020"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q021"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q022"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q023"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d172",
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q024"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q025"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q026"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d050",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q027"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d202",
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q028"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q029"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d269"
+      ],
+      "overblocked": false,
+      "q": "q030"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d066",
+       "d242"
+      ],
+      "overblocked": false,
+      "q": "q031"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q032"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q033"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q034"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d243",
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q035"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d001",
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q036"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q037"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q038"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136",
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q039"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q041"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d253",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q042"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d254"
+      ],
+      "overblocked": false,
+      "q": "q043"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q044"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q045"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q046"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q047"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d093",
+       "d212"
+      ],
+      "overblocked": false,
+      "q": "q048"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q050"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q051"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d166",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q052"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d029",
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q054"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d206"
+      ],
+      "overblocked": false,
+      "q": "q055"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d024",
+       "d210"
+      ],
+      "overblocked": false,
+      "q": "q056"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d173",
+       "d232"
+      ],
+      "overblocked": false,
+      "q": "q058"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q059"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q060"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d081",
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q062"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q063"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q064"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q065"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277",
+       "d278"
+      ],
+      "overblocked": false,
+      "q": "q066"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d286",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282"
+      ],
+      "overblocked": false,
+      "q": "q070"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290"
+      ],
+      "overblocked": false,
+      "q": "q071"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d296",
+       "d298",
+       "d299"
+      ],
+      "overblocked": false,
+      "q": "q072"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294",
+       "d295"
+      ],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277",
+       "d278"
+      ],
+      "overblocked": false,
+      "q": "q074"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d286",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282"
+      ],
+      "overblocked": false,
+      "q": "q078"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294"
+      ],
+      "overblocked": false,
+      "q": "q081"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d276",
+       "d278"
+      ],
+      "overblocked": false,
+      "q": "q082"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d272",
+       "d274",
+       "d275"
+      ],
+      "overblocked": false,
+      "q": "q083"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d286",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282"
+      ],
+      "overblocked": false,
+      "q": "q086"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d296",
+       "d298",
+       "d299"
+      ],
+      "overblocked": false,
+      "q": "q088"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d292",
+       "d293",
+       "d294"
+      ],
+      "overblocked": false,
+      "q": "q089"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277"
+      ],
+      "overblocked": false,
+      "q": "q090"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d272",
+       "d273",
+       "d274",
+       "d275"
+      ],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d286",
+       "d287"
+      ],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d280",
+       "d281",
+       "d282"
+      ],
+      "overblocked": false,
+      "q": "q094"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d288",
+       "d289",
+       "d290",
+       "d291"
+      ],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d040"
+      ],
+      "overblocked": false,
+      "q": "q096"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q097"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d031"
+      ],
+      "overblocked": false,
+      "q": "q098"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d033"
+      ],
+      "overblocked": false,
+      "q": "q099"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q101"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d193"
+      ],
+      "overblocked": false,
+      "q": "q102"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d021",
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q103"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d131"
+      ],
+      "overblocked": false,
+      "q": "q104"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d060",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q105"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d044",
+       "d105",
+       "d125"
+      ],
+      "overblocked": false,
+      "q": "q107"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q108"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q109"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q110"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d065",
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q111"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300",
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": true,
+      "q": "q112"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q113"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d038",
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q115"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d159",
+       "d211"
+      ],
+      "overblocked": false,
+      "q": "q117"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q118"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d080",
+       "d135"
+      ],
+      "overblocked": false,
+      "q": "q119"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d296",
+       "d297",
+       "d298",
+       "d299"
+      ],
+      "overblocked": false,
+      "q": "q121"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d292"
+      ],
+      "overblocked": false,
+      "q": "q122"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d163",
+       "d177"
+      ],
+      "overblocked": false,
+      "q": "q123"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012",
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q125"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q127"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q128"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d059",
+       "d228"
+      ],
+      "overblocked": false,
+      "q": "q129"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q130"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d131",
+       "d234"
+      ],
+      "overblocked": false,
+      "q": "q131"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q132"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q133"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012",
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q135"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d126",
+       "d192",
+       "d199"
+      ],
+      "overblocked": false,
+      "q": "q137"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d069"
+      ],
+      "overblocked": false,
+      "q": "q138"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136"
+      ],
+      "overblocked": false,
+      "q": "q139"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013"
+      ],
+      "overblocked": false,
+      "q": "q140"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d138",
+       "d151"
+      ],
+      "overblocked": false,
+      "q": "q141"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d077",
+       "d107"
+      ],
+      "overblocked": false,
+      "q": "q142"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d096",
+       "d106"
+      ],
+      "overblocked": false,
+      "q": "q143"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q145"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d048"
+      ],
+      "overblocked": false,
+      "q": "q146"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q147"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d284",
+       "d285",
+       "d286",
+       "d287"
+      ],
+      "overblocked": false,
+      "q": "q149"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q150"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q151"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q152"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d166",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q153"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q154"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q155"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d092",
+       "d128"
+      ],
+      "overblocked": false,
+      "q": "q157"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d014",
+       "d017"
+      ],
+      "overblocked": false,
+      "q": "q158"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d030",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q159"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d015"
+      ],
+      "overblocked": false,
+      "q": "q160"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q161"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d274"
+      ],
+      "overblocked": false,
+      "q": "q162"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q163"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q164"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089",
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q165"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q166"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d050",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q167"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q169"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d027",
+       "d152"
+      ],
+      "overblocked": false,
+      "q": "q171"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d025"
+      ],
+      "overblocked": false,
+      "q": "q172"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d163",
+       "d177",
+       "d301"
+      ],
+      "overblocked": false,
+      "q": "q173"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q175"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q177"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d123",
+       "d225"
+      ],
+      "overblocked": false,
+      "q": "q179"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q181"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302"
+      ],
+      "overblocked": false,
+      "q": "q182"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q183"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q184"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d182",
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q185"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q186"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d229"
+      ],
+      "overblocked": false,
+      "q": "q187"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d275"
+      ],
+      "overblocked": false,
+      "q": "q188"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d127",
+       "d215"
+      ],
+      "overblocked": false,
+      "q": "q189"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d231",
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q191"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d215"
+      ],
+      "overblocked": false,
+      "q": "q192"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d301",
+       "d302",
+       "d303"
+      ],
+      "overblocked": false,
+      "q": "q193"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113",
+       "d186"
+      ],
+      "overblocked": false,
+      "q": "q195"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089",
+       "d112",
+       "d215"
+      ],
+      "overblocked": false,
+      "q": "q197"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q198"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d081",
+       "d179"
+      ],
+      "overblocked": false,
+      "q": "q199"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d115",
+       "d148"
+      ],
+      "overblocked": false,
+      "q": "q200"
+     }
+    ],
+    "postfilter": [
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q112"
+     }
+    ],
+    "prefilter": [],
+    "redact": [
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q001"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q002"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q003"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q004"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q005"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q006"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d008",
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q007"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q008"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q009"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q010"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q011"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q012"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q013"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d269"
+      ],
+      "overblocked": false,
+      "q": "q014"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q015"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q016"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d039",
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q017"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q018"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d258"
+      ],
+      "overblocked": false,
+      "q": "q019"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q020"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d260"
+      ],
+      "overblocked": false,
+      "q": "q021"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d261"
+      ],
+      "overblocked": false,
+      "q": "q022"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d262"
+      ],
+      "overblocked": false,
+      "q": "q023"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d172",
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q024"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q025"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d265"
+      ],
+      "overblocked": false,
+      "q": "q026"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d050",
+       "d266"
+      ],
+      "overblocked": false,
+      "q": "q027"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d202",
+       "d267"
+      ],
+      "overblocked": false,
+      "q": "q028"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d268"
+      ],
+      "overblocked": false,
+      "q": "q029"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d269"
+      ],
+      "overblocked": true,
+      "q": "q030"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d242"
+      ],
+      "overblocked": false,
+      "q": "q031"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243"
+      ],
+      "overblocked": false,
+      "q": "q032"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q033"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q034"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d243",
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q035"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q036"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d244",
+       "d248"
+      ],
+      "overblocked": false,
+      "q": "q037"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d245",
+       "d249"
+      ],
+      "overblocked": false,
+      "q": "q038"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d250"
+      ],
+      "overblocked": false,
+      "q": "q039"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d252"
+      ],
+      "overblocked": false,
+      "q": "q041"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d253",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q042"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d254"
+      ],
+      "overblocked": false,
+      "q": "q043"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d243",
+       "d255"
+      ],
+      "overblocked": false,
+      "q": "q044"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d247"
+      ],
+      "overblocked": false,
+      "q": "q045"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060"
+      ],
+      "overblocked": false,
+      "q": "q046"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q047"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d093"
+      ],
+      "overblocked": false,
+      "q": "q048"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q050"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q051"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d166"
+      ],
+      "overblocked": false,
+      "q": "q052"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d029",
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q054"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d206"
+      ],
+      "overblocked": false,
+      "q": "q055"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d024",
+       "d210"
+      ],
+      "overblocked": false,
+      "q": "q056"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d232"
+      ],
+      "overblocked": false,
+      "q": "q058"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d060"
+      ],
+      "overblocked": false,
+      "q": "q059"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d072",
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q060"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q062"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d130",
+       "d218"
+      ],
+      "overblocked": false,
+      "q": "q063"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d163"
+      ],
+      "overblocked": false,
+      "q": "q064"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q065"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277"
+      ],
+      "overblocked": false,
+      "q": "q066"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q067"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q068"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285",
+       "d286"
+      ],
+      "overblocked": true,
+      "q": "q069"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q073"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277"
+      ],
+      "overblocked": false,
+      "q": "q074"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q075"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q076"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285",
+       "d286"
+      ],
+      "overblocked": true,
+      "q": "q077"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q079"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q080"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d276"
+      ],
+      "overblocked": false,
+      "q": "q082"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q084"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285",
+       "d286"
+      ],
+      "overblocked": true,
+      "q": "q085"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q087"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d277"
+      ],
+      "overblocked": false,
+      "q": "q090"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q091"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q092"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285",
+       "d286"
+      ],
+      "overblocked": true,
+      "q": "q093"
+     },
+     {
+      "correct": false,
+      "leaked": [],
+      "overblocked": true,
+      "q": "q095"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d040"
+      ],
+      "overblocked": false,
+      "q": "q096"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q097"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d031"
+      ],
+      "overblocked": false,
+      "q": "q098"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d033"
+      ],
+      "overblocked": false,
+      "q": "q099"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d187"
+      ],
+      "overblocked": false,
+      "q": "q101"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d193"
+      ],
+      "overblocked": false,
+      "q": "q102"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d021"
+      ],
+      "overblocked": false,
+      "q": "q103"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d131"
+      ],
+      "overblocked": false,
+      "q": "q104"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d044",
+       "d105",
+       "d125"
+      ],
+      "overblocked": false,
+      "q": "q107"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q108"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113"
+      ],
+      "overblocked": false,
+      "q": "q109"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d065",
+       "d116"
+      ],
+      "overblocked": false,
+      "q": "q111"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d300"
+      ],
+      "overblocked": true,
+      "q": "q112"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q113"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d038",
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q115"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d159",
+       "d211"
+      ],
+      "overblocked": false,
+      "q": "q117"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q118"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d135"
+      ],
+      "overblocked": false,
+      "q": "q119"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d163",
+       "d177"
+      ],
+      "overblocked": false,
+      "q": "q123"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012",
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q125"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q127"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q128"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d059",
+       "d228"
+      ],
+      "overblocked": false,
+      "q": "q129"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q130"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d131",
+       "d234"
+      ],
+      "overblocked": false,
+      "q": "q131"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d120"
+      ],
+      "overblocked": false,
+      "q": "q132"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d070",
+       "d237"
+      ],
+      "overblocked": false,
+      "q": "q133"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d012",
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q135"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d126",
+       "d192",
+       "d199"
+      ],
+      "overblocked": false,
+      "q": "q137"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d069"
+      ],
+      "overblocked": false,
+      "q": "q138"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d136"
+      ],
+      "overblocked": false,
+      "q": "q139"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d013"
+      ],
+      "overblocked": false,
+      "q": "q140"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d138",
+       "d151"
+      ],
+      "overblocked": false,
+      "q": "q141"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d077",
+       "d107"
+      ],
+      "overblocked": false,
+      "q": "q142"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d096"
+      ],
+      "overblocked": false,
+      "q": "q143"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q145"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q147"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d285",
+       "d286"
+      ],
+      "overblocked": false,
+      "q": "q149"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q150"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q151"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d143"
+      ],
+      "overblocked": false,
+      "q": "q152"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d090",
+       "d166"
+      ],
+      "overblocked": false,
+      "q": "q153"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d256"
+      ],
+      "overblocked": false,
+      "q": "q154"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d264"
+      ],
+      "overblocked": false,
+      "q": "q155"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d092",
+       "d128"
+      ],
+      "overblocked": false,
+      "q": "q157"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d030"
+      ],
+      "overblocked": false,
+      "q": "q159"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d015"
+      ],
+      "overblocked": false,
+      "q": "q160"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d062",
+       "d183"
+      ],
+      "overblocked": false,
+      "q": "q161"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q163"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q164"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089",
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q165"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d015",
+       "d079"
+      ],
+      "overblocked": false,
+      "q": "q167"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d153"
+      ],
+      "overblocked": false,
+      "q": "q169"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d027",
+       "d152"
+      ],
+      "overblocked": false,
+      "q": "q171"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d053",
+       "d163",
+       "d177"
+      ],
+      "overblocked": false,
+      "q": "q173"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d257"
+      ],
+      "overblocked": false,
+      "q": "q175"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d103",
+       "d194",
+       "d195"
+      ],
+      "overblocked": false,
+      "q": "q177"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d086",
+       "d123",
+       "d225"
+      ],
+      "overblocked": false,
+      "q": "q179"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d013",
+       "d019"
+      ],
+      "overblocked": false,
+      "q": "q181"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d157",
+       "d270"
+      ],
+      "overblocked": false,
+      "q": "q183"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d084"
+      ],
+      "overblocked": false,
+      "q": "q184"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d182",
+       "d241",
+       "d271"
+      ],
+      "overblocked": false,
+      "q": "q185"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d263"
+      ],
+      "overblocked": false,
+      "q": "q186"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d215"
+      ],
+      "overblocked": false,
+      "q": "q189"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d231",
+       "d259"
+      ],
+      "overblocked": false,
+      "q": "q191"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d046",
+       "d113"
+      ],
+      "overblocked": false,
+      "q": "q195"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d008",
+       "d089",
+       "d112"
+      ],
+      "overblocked": false,
+      "q": "q197"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d204"
+      ],
+      "overblocked": false,
+      "q": "q198"
+     },
+     {
+      "correct": false,
+      "leaked": [
+       "d179"
+      ],
+      "overblocked": false,
+      "q": "q199"
+     },
+     {
+      "correct": true,
+      "leaked": [
+       "d115",
+       "d148"
+      ],
+      "overblocked": false,
+      "q": "q200"
+     }
+    ]
+   },
+   "modes": {
+    "none": {
+     "accuracy": {
+      "ci": [
+       0.535,
+       0.4658664681834379,
+       0.6028143589497348
+      ],
+      "k": 107,
+      "n": 200
+     },
+     "chunks_to_model_mean": 4.0,
+     "latency_p50_ci": [
+      2.579,
+      2.702
+     ],
+     "latency_p50_ms": 2.632,
+     "latency_p95_ci": [
+      3.606,
+      4.865
+     ],
+     "latency_p95_ms": 4.099,
+     "leak_rate": {
+      "ci": [
+       0.87,
+       0.8163364808001792,
+       0.9097179774647881
+      ],
+      "k": 174,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": null,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.13709677419354838,
+       0.08739044123971285,
+       0.20861258635740443
+      ],
+      "k": 17,
+      "n": 124
+     }
+    },
+    "postfilter": {
+     "accuracy": {
+      "ci": [
+       0.915,
+       0.8681041288487654,
+       0.9462542500159954
+      ],
+      "k": 183,
+      "n": 200
+     },
+     "chunks_to_model_mean": 1.48,
+     "latency_p50_ci": [
+      2.694,
+      2.813
+     ],
+     "latency_p50_ms": 2.739,
+     "latency_p95_ci": [
+      3.296,
+      4.114
+     ],
+     "latency_p95_ms": 3.644,
+     "leak_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.018845326668962936
+      ],
+      "k": 0,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": 0.015,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.13709677419354838,
+       0.08739044123971285,
+       0.20861258635740443
+      ],
+      "k": 17,
+      "n": 124
+     }
+    },
+    "prefilter": {
+     "accuracy": {
+      "ci": [
+       1.0,
+       0.9811546733310369,
+       0.9999999999999999
+      ],
+      "k": 200,
+      "n": 200
+     },
+     "chunks_to_model_mean": 4.0,
+     "latency_p50_ci": [
+      2.654,
+      2.814
+     ],
+     "latency_p50_ms": 2.725,
+     "latency_p95_ci": [
+      3.615,
+      4.601
+     ],
+     "latency_p95_ms": 4.106,
+     "leak_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.018845326668962936
+      ],
+      "k": 0,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": 0.015,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.0,
+       0.0,
+       0.03004861580047276
+      ],
+      "k": 0,
+      "n": 124
+     }
+    },
+    "redact": {
+     "accuracy": {
+      "ci": [
+       0.535,
+       0.4658664681834379,
+       0.6028143589497348
+      ],
+      "k": 107,
+      "n": 200
+     },
+     "chunks_to_model_mean": 4.0,
+     "latency_p50_ci": [
+      2.633,
+      2.737
+     ],
+     "latency_p50_ms": 2.677,
+     "latency_p95_ci": [
+      3.285,
+      3.767
+     ],
+     "latency_p95_ms": 3.487,
+     "leak_rate": {
+      "ci": [
+       0.71,
+       0.6436252184459675,
+       0.768459744353068
+      ],
+      "k": 142,
+      "n": 200
+     },
+     "leak_upper_rule_of_three": null,
+     "n": 200,
+     "overblock_rate": {
+      "ci": [
+       0.14516129032258066,
+       0.093836571101606,
+       0.21781083366001985
+      ],
+      "k": 18,
+      "n": 124
+     }
+    }
+   }
+  }
+ },
+ "seed": 1
+}

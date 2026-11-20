@@ -1,0 +1,26 @@
+name: Benchmark (manual)
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  bench:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - uses: astral-sh/setup-uv@v6
+      - run: ./init.sh
+      - run: uv pip install --python .venv/bin/python -e ".[dense]"
+      - run: .venv/bin/python scripts/fetch_model.py
+      - run: .venv/bin/gatedmind eval --seed 1 --retrievers bm25,hybrid --out /tmp/dev-seed1.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bench-results
+          path: /tmp/dev-seed1.json

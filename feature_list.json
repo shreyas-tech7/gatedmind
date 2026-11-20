@@ -1,0 +1,174 @@
+[
+ {
+  "id": "F01",
+  "area": "setup",
+  "description": "Initializer: init.sh, memory files, LICENSE, .env.example, secret scan config",
+  "steps": [
+   "./init.sh",
+   "test -f LICENSE -a -f .env.example -a -f .pre-commit-config.yaml",
+   "gitleaks git -v ."
+  ],
+  "passes": true
+ },
+ {
+  "id": "F02",
+  "area": "data",
+  "description": "Synthetic org: 4 departments, 40 people, about 300 documents with access rules and three traps (twin, single person, folder)",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_org.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F03",
+  "area": "data",
+  "description": "Eval suite of 150 to 200 questions, each with an asker and the documents that may appear",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_questions.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F04",
+  "area": "index",
+  "description": "Chunks with access metadata in SQLite, BM25, SQL grants match the reference rules",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_index.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F05",
+  "area": "index",
+  "description": "Hash embedder for tests, FastEmbed MiniLM for dense and hybrid search",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_index.py -k dense",
+   "python scripts/fetch_model.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F06",
+  "area": "model",
+  "description": "Scripted fake model that quotes its context with citations",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_model.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F07",
+  "area": "modes",
+  "description": "Four enforcement modes: pre-filter, post-filter, redact after, none",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_modes.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F08",
+  "area": "eval",
+  "description": "Metrics: accuracy, leak rate, over-blocking, latency p50 and p95 with 95% intervals",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_metrics.py tests/test_leaks.py -k metrics"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F09",
+  "area": "eval",
+  "description": "Leak gate: modes 1 and 2 have zero leaks on the full suite (fails the build), modes 3 and 4 show leaks",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_leaks.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F10",
+  "area": "audit",
+  "description": "Audit log of every query: identity, returned document IDs, denied chunks, and no document text",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_audit_and_tools.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F11",
+  "area": "mcp",
+  "description": "MCP server over stdio with search, get_doc and who_knows, smoke test with the official client",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_mcp_smoke.py",
+   "python scripts/mcp_smoke.py"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F12",
+  "area": "tests",
+  "description": "Tests run offline with a network guard",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_network_guard.py",
+   "./init.sh"
+  ],
+  "passes": true
+ },
+ {
+  "id": "F13",
+  "area": "results",
+  "description": "Final numbers from held-out seed 2, run once after every other feature passed",
+  "steps": [
+   "test -f results/final-seed2.json",
+   "jq .seed results/final-seed2.json"
+  ],
+  "passes": false
+ },
+ {
+  "id": "F14",
+  "area": "readme",
+  "description": "README table with accuracy, leak rate, over-blocking, latency p50 and p95 per mode, and the rule of three note, written by a script",
+  "steps": [
+   ".venv/bin/gatedmind readme --check",
+   ".venv/bin/python -m pytest tests/test_repo.py -k readme"
+  ],
+  "passes": false
+ },
+ {
+  "id": "F15",
+  "area": "quality",
+  "description": "Quality bar: README sections, CI with badge, CHANGELOG, CONTRIBUTING, issue templates, topics, social preview, static results page, DEMO.md, link check",
+  "steps": [
+   ".venv/bin/python -m pytest tests/test_repo.py",
+   "python scripts/check_links.py",
+   "actionlint"
+  ],
+  "passes": false
+ },
+ {
+  "id": "F16",
+  "area": "docs",
+  "description": "Study-later kit: WALKTHROUGH.md, INTERVIEW_QA.md, DECISIONS.md",
+  "steps": [
+   "test -f docs/WALKTHROUGH.md -a -f docs/INTERVIEW_QA.md -a -f DECISIONS.md"
+  ],
+  "passes": false
+ },
+ {
+  "id": "F17",
+  "area": "release",
+  "description": "Release check: review, security audit, gitleaks, pip-audit, ruff S, actionlint, links, outside check",
+  "steps": [
+   "test -f docs/RELEASE_CHECK.md",
+   "test -f docs/SECURITY_CHECKS.md"
+  ],
+  "passes": false
+ },
+ {
+  "id": "F18",
+  "area": "handoff",
+  "description": "Release candidate and hand-off: CHANGELOG SHA, HUMAN_STEPS.md, COWORK_PROMPT.md, GITHUB_ABOUT.md, topics.txt",
+  "steps": [
+   "test -f docs/HUMAN_STEPS.md -a -f docs/handoff/COWORK_PROMPT.md -a -f docs/topics.txt -a -f docs/GITHUB_ABOUT.md"
+  ],
+  "passes": false
+ }
+]
