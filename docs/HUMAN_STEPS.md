@@ -2,7 +2,7 @@
 
 These are the steps only Shreyas can do, in order. The build ran with no GitHub CLI, no tag pushes and no way to create `main`.
 
-Release commit: `RELEASE_SHA`
+Release commit: `7cdf4ce32fc6bd2c445e98b3bc519f7c857ae7c1`
 
 Branch: `claude/build-gatedmind`
 
@@ -12,7 +12,7 @@ Branch: `claude/build-gatedmind`
 
    ```
    git fetch origin
-   git tag -a v0.1.0-rc1 RELEASE_SHA -m "Release candidate 1"
+   git tag -a v0.1.0-rc1 7cdf4ce32fc6bd2c445e98b3bc519f7c857ae7c1 -m "Release candidate 1"
    git push origin v0.1.0-rc1
    ```
 

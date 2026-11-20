@@ -2,7 +2,7 @@
 
 ## v0.1.0-rc1 (release candidate, 2026-11-20)
 
-Release commit: `RELEASE_SHA`
+Release commit: `7cdf4ce32fc6bd2c445e98b3bc519f7c857ae7c1`
 
 
 - Synthetic org generator with three traps: a restricted twin, a single-person note and a folder that passes its rules to its files.
