@@ -96,10 +96,10 @@ def png(px) -> bytes:
 def main() -> None:
     px = canvas()
     rect(px, 0, 0, W, 12, ACCENT)
-    text(px, "cpu-rag-lab", 80, 110, 14, FG)
-    text(px, "retrieval settings on a small cpu", 84, 260, 5, ACCENT)
-    text(px, "bm25, dense, hybrid", 84, 330, 5, MUTED)
-    text(px, "95% intervals, latency, ram", 84, 390, 5, MUTED)
+    text(px, "gatedmind", 80, 110, 14, FG)
+    text(px, "permission-aware rag", 84, 260, 5, ACCENT)
+    text(px, "leak rate per enforcement mode", 84, 330, 5, MUTED)
+    text(px, "pre-filter, post-filter, redact", 84, 390, 5, MUTED)
     # A decorative bar trio. The heights are fixed shapes, not results.
     for i, color in enumerate(BARS):
         rect(px, 980 + i * 70, 560 - (120 + i * 60), 1030 + i * 70, 560, color)
