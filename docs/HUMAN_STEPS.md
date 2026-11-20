@@ -26,4 +26,5 @@ Branch: `claude/build-gatedmind`
 10. Publish to PyPI with trusted publishing, if you want the package on PyPI. Add a trusted publisher for `shreyas-tech7/gatedmind` at https://pypi.org/manage/account/publishing/ and add a release workflow. The name `gatedmind` was free on 2026-11-19.
 11. Optional: run the benchmark with a real model. This build used a scripted model, so no provider key was needed. A real model run needs a provider key that you add yourself.
 12. Decide whether `docs/build/BUILD_PROMPT.md` stays public.
-13. Mark the human checks in the README as done once you have read the code and run `./init.sh` yourself.
+13. After the merge, change the CI badge in the README from `?branch=claude/build-gatedmind` to `?branch=main`.
+14. Mark the human checks in the README as done once you have read the code and run `./init.sh` yourself.

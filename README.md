@@ -14,7 +14,7 @@ gatedmind answers questions from a synthetic company and never shows a person a 
 
 ```mermaid
 flowchart LR
-  G[Synthetic org<br/>40 people, about 300 docs,<br/>3 traps] --> I[SQLite index<br/>chunks + grants per chunk<br/>BM25 + MiniLM]
+  G[Synthetic org<br/>people, folders, docs<br/>and planted traps] --> I[SQLite index<br/>chunks + grants per chunk<br/>BM25 + MiniLM]
   Q[Question + test identity] --> E{Enforcement mode}
   I --> E
   E -->|1 pre-filter: rules inside the search| M[Scripted fake model<br/>quotes its context]
@@ -77,7 +77,7 @@ Read the table this way:
 - Mode 3 leaks through the summary line. Exact-match redaction removes quotes, but it cannot catch a fact the model has restated in new words. It can also over-block, because it scrubs allowed sentences that match a forbidden twin word for word.
 - Mode 2 over-blocks because forbidden chunks fill the top results and then get dropped. The model gets fewer chunks (see "Chunks to model"), so an allowed answer can fall out. Mode 1 keeps the top results full of allowed chunks.
 - Mode 4's over-blocking number is the same crowding effect with nothing removed. It is not blocking.
-- Mode 1 scores 0% over-blocking by design, since the reference search is a correct pre-filter. The number checks that the SQL grants agree with the reference rules.
+- Mode 1 shows no over-blocking by design, since the reference search is a correct pre-filter. The number checks that the SQL grants agree with the reference rules.
 - Accuracy for modes 3 and 4 is low mostly because a leak on a question the asker may not answer counts as wrong.
 - Accuracy for mode 1 is high because each synthetic question names its subject. This benchmark measures leaks, not retrieval quality.
 
@@ -115,11 +115,11 @@ git clone https://github.com/shreyas-tech7/gatedmind.git && cd gatedmind
 ./init.sh                                    # venv, install, lint, all tests offline
 .venv/bin/gatedmind ask --as p005 --mode none "What is the Q3 2027 budget for project atlas?"
 .venv/bin/gatedmind ask --as p005 --mode prefilter "What is the Q3 2027 budget for project atlas?"
-.venv/bin/gatedmind eval --seed 1 --out /tmp/seed1.json   # all four modes, BM25, about 1 second
+.venv/bin/gatedmind eval --seed 1 --out /tmp/seed1.json   # all four modes, BM25, a few seconds
 .venv/bin/python scripts/mcp_smoke.py        # MCP server over stdio with the official client
 ```
 
-For the hybrid rows, install the extra and fetch the model (about 90 MB from the Chroma archive, checked by sha256):
+For the hybrid rows, install the extra and fetch the model (a small ONNX download from the Chroma archive, checked by sha256):
 
 ```bash
 uv pip install --python .venv/bin/python -e ".[dense]"
@@ -132,7 +132,7 @@ To use the MCP server from a client, run `gatedmind serve --seed 1 --audit logs/
 ## Limits
 
 - **This is not authentication.** The `identity` argument is a test token. Anyone who can reach the server can claim any identity. A real system must take the identity from a verified sign-in, outside the model's reach.
-- The data is synthetic. 4 departments, 40 people, about 300 short documents. Real documents are longer, messier and change over time.
+- The data is synthetic: a small company with a few hundred short documents. Real documents are longer, messier and change over time.
 - The model is a script. It shows the two leak paths a real model has (quoting and paraphrase), but a real model can paraphrase in ways this script does not.
 - Pre-filtered BM25 uses word statistics (IDF) from the whole corpus. A careful attacker could learn that a rare word exists somewhere. A per-access-set index would close that gap.
 - Rules are resolved when the index is built. A changed rule needs a rebuild. There is no encryption, no Drive or Slack connector and no real sign-in.
@@ -164,7 +164,7 @@ What is different here: gatedmind is self-contained, needs no auth server and no
 
 ## How this was built
 
-AI agents wrote most of the code under Shreyas's direction. The full build brief is in [docs/build/BUILD_PROMPT.md](docs/build/BUILD_PROMPT.md). Choices and their reasons are in [DECISIONS.md](DECISIONS.md). A tour of every file is in [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md).
+AI agents wrote most of the code under Shreyas's direction. The full build brief is in [docs/build/BUILD_PROMPT.md](docs/build/BUILD_PROMPT.md). Choices and their reasons are in [DECISIONS.md](DECISIONS.md). A tour of every file is in [docs/WALKTHROUGH.md](docs/WALKTHROUGH.md). The security scans and the code audit are in [docs/SECURITY_CHECKS.md](docs/SECURITY_CHECKS.md). The steps only Shreyas can do are in [docs/HUMAN_STEPS.md](docs/HUMAN_STEPS.md).
 
 Human checks, not done yet:
 

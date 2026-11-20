@@ -11,7 +11,7 @@ Run on 2026-11-20 on branch `claude/build-gatedmind`. This is a benchmark, not a
 | Dependency advisories | `pip-audit -r <frozen requirements> --no-deps --disable-pip` | no known vulnerabilities in 56 packages |
 | Security lint | `ruff check --select S src scripts tests` | all checks passed after one fix |
 | Workflow lint | `actionlint` | no findings |
-| Links | `python scripts/check_links.py` | relative links pass, 3 outside links not checked |
+| Links | `python scripts/check_links.py` | relative links pass, outside links listed as not checked (no network check here) |
 | MCP tool scan | `mcp-scanner --analyzers yara static --tools <tools.json>` | 3 tools scanned, 3 safe, 0 findings |
 
 The ruff fix: `tests/test_repo.py` runs our own link script with a fixed argument list. It now carries a `noqa: S603` comment with that reason. Two `S608` and two `S311` comments were already in place. The SQL builds only `?` placeholders, and the random numbers make synthetic data, not keys.
