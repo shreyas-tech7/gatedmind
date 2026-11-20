@@ -77,7 +77,9 @@ def build(org: dict, path: Path, embedder=None) -> Path:
 
 class Index:
     def __init__(self, path: Path, embedder=None):
-        self.con = sqlite3.connect(f"file:{Path(path)}?mode=ro", uri=True, check_same_thread=False)
+        self.con = sqlite3.connect(
+            Path(path).resolve().as_uri() + "?mode=ro", uri=True, check_same_thread=False
+        )
         rows = self.con.execute("SELECT id, doc_id, text, emb FROM chunks ORDER BY id").fetchall()
         self.chunk_ids = np.array([r[0] for r in rows], dtype=np.int64)
         self.row_of = {cid: i for i, cid in enumerate(self.chunk_ids.tolist())}

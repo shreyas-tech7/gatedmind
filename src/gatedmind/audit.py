@@ -7,6 +7,7 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import time
 from pathlib import Path
 
@@ -35,6 +36,8 @@ class AuditLog:
             "returned_doc_ids": list(returned_doc_ids),
             "denied_chunks": int(denied_chunks),
         }
-        with self.path.open("a", encoding="utf-8") as f:
+        # Owner-only file: the log names who asked for which document IDs.
+        fd = os.open(self.path, os.O_WRONLY | os.O_APPEND | os.O_CREAT, 0o600)
+        with os.fdopen(fd, "a", encoding="utf-8") as f:
             f.write(json.dumps(entry, sort_keys=True) + "\n")
         return entry

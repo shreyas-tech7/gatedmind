@@ -102,6 +102,8 @@ class Tools:
             return json.dumps(fn(args), indent=1), False
         except ToolError as e:
             return str(e), True
+        except Exception:  # fail closed and keep internal details out of the reply
+            return "internal error", True
 
     def search(self, args: dict) -> list[dict]:
         ident, query = self._identity(args), self._text(args, "query")

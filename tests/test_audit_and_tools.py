@@ -79,3 +79,18 @@ def test_audit_log_stores_ids_and_counts_but_no_document_text(seed1_index, tmp_p
             assert s not in raw
     for q in qs:
         assert q["text"] not in raw
+
+
+def test_audit_log_is_owner_only(tmp_path):
+    log = AuditLog(tmp_path / "audit.jsonl")
+    log.write(identity="p001", action="search", query="q", returned_doc_ids=[], denied_chunks=0)
+    assert (tmp_path / "audit.jsonl").stat().st_mode & 0o077 == 0
+
+
+def test_internal_errors_do_not_leak_details(seed1_index):
+    class Broken(Tools):
+        def search(self, args):
+            raise RuntimeError("secret internal state d123")
+
+    text, is_error = Broken(seed1_index).call("search", {"identity": "p001", "query": "x"})
+    assert is_error and text == "internal error"

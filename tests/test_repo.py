@@ -100,7 +100,7 @@ def test_topics():
 
 
 def test_link_check_passes():
-    r = subprocess.run(
+    r = subprocess.run(  # noqa: S603 (fixed argv, our own script)
         [sys.executable, str(ROOT / "scripts" / "check_links.py")],
         capture_output=True,
         text=True,

@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>gatedmind results</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body { font: 15px/1.5 system-ui, sans-serif; margin: 2rem auto; max-width: 64rem; padding: 0 1rem;
+  background: #0d1117; color: #e6edf3; }
+table { border-collapse: collapse; width: 100%; } td, th { border: 1px solid #30363d; padding: .4rem; }
+tr.leak td:nth-child(4) { color: #f85149; } tr.ok td:nth-child(4) { color: #3fb950; }
+a { color: #6ea8ff; }
+</style></head><body>
+<h1 id="top">gatedmind results</h1>
+<p>A demo, not a security product. Leak rate per enforcement mode on seed 2,
+200 questions, run on 2026-11-20 with the
+scripted fake model (gatedmind.model), no real model. Brackets hold 95% intervals.</p>
+<table><tr><th>Mode</th><th>Retriever</th><th>Accuracy</th><th>Leak rate</th>
+<th>Over-blocking</th><th>p50 ms</th><th>p95 ms</th></tr>
+<tr class="ok"><td>1 pre-filter</td><td>BM25</td><td>100.0% [98.1%, 100.0%] (200/200)</td><td>0.0% [0.0%, 1.9%] (0/200)</td><td>0.0% [0.0%, 3.0%] (0/126)</td><td>0.22</td><td>0.43</td></tr>
+<tr class="ok"><td>2 post-filter</td><td>BM25</td><td>87.5% [82.2%, 91.4%] (175/200)</td><td>0.0% [0.0%, 1.9%] (0/200)</td><td>19.8% [13.8%, 27.7%] (25/126)</td><td>0.21</td><td>0.42</td></tr>
+<tr class="leak"><td>3 redact after</td><td>BM25</td><td>51.5% [44.6%, 58.3%] (103/200)</td><td>63.5% [56.6%, 69.9%] (127/200)</td><td>19.8% [13.8%, 27.7%] (25/126)</td><td>0.26</td><td>0.43</td></tr>
+<tr class="leak"><td>4 none (control)</td><td>BM25</td><td>50.5% [43.6%, 57.4%] (101/200)</td><td>87.5% [82.2%, 91.4%] (175/200)</td><td>19.8% [13.8%, 27.7%] (25/126)</td><td>0.10</td><td>0.14</td></tr>
+<tr class="ok"><td>1 pre-filter</td><td>BM25 + MiniLM (RRF)</td><td>100.0% [98.1%, 100.0%] (200/200)</td><td>0.0% [0.0%, 1.9%] (0/200)</td><td>0.0% [0.0%, 3.0%] (0/126)</td><td>2.65</td><td>3.69</td></tr>
+<tr class="ok"><td>2 post-filter</td><td>BM25 + MiniLM (RRF)</td><td>92.0% [87.4%, 95.0%] (184/200)</td><td>0.0% [0.0%, 1.9%] (0/200)</td><td>12.7% [8.0%, 19.6%] (16/126)</td><td>2.73</td><td>4.44</td></tr>
+<tr class="leak"><td>3 redact after</td><td>BM25 + MiniLM (RRF)</td><td>54.0% [47.1%, 60.8%] (108/200)</td><td>60.5% [53.6%, 67.0%] (121/200)</td><td>15.1% [9.9%, 22.4%] (19/126)</td><td>2.68</td><td>3.33</td></tr>
+<tr class="leak"><td>4 none (control)</td><td>BM25 + MiniLM (RRF)</td><td>55.0% [48.1%, 61.7%] (110/200)</td><td>85.5% [80.0%, 89.7%] (171/200)</td><td>12.7% [8.0%, 19.6%] (16/126)</td><td>2.55</td><td>3.38</td></tr>
+</table>
+<p>Numbers come from <a href="../results/final-seed2.json">results/final-seed2.json</a>. See the <a href="../README.md">README</a>.</p>
+</body></html>
