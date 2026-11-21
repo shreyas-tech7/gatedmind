@@ -12,3 +12,11 @@ Bug triage (frequency x severity):
 | Finding | Score | Kind | Status |
 | --- | --- | --- | --- |
 | Percent values could be substrings of each other ("4.5" in "14.5"), which would count false leaks | 3 x 4 = 12 | live bug | fixed: fixed-width values, test `test_fact_values_are_unique` |
+
+## MiniLM rows are not in the offline leak gate (2026-11-20)
+
+The outside check found that `tests/test_leaks.py` runs the hybrid and dense paths with the hash
+embedder. The MiniLM model needs a download, so `./init.sh` cannot use it offline. Fallback: the
+MiniLM hybrid rows in `results/final-seed2.json` and `results/dev-seed1.json` came from the same
+`evaluate.run` code with MiniLM, and they show zero leaks for modes 1 and 2. Manual step: none
+needed. Anyone can rerun them with the commands in the README.

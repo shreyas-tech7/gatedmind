@@ -105,10 +105,10 @@ def blocks(final: dict, dev: dict, final_path: str, dev_path: str) -> dict[str, 
 
 def render(text: str, values: dict[str, str]) -> str:
     for name, body in values.items():
-        pat = re.compile(rf"(<!-- gm:{name}:start -->\n).*?(\n<!-- gm:{name}:end -->)", re.S)
+        pat = re.compile(rf"(<!-- gm:{name}:start -->\n)(?:.*?\n)?(<!-- gm:{name}:end -->)", re.S)
         if not pat.search(text):
             raise ValueError(f"marker gm:{name} missing")
-        text = pat.sub(lambda m, b=body: m.group(1) + b + m.group(2), text)
+        text = pat.sub(lambda m, b=body: m.group(1) + b + "\n" + m.group(2), text)
     return text
 
 

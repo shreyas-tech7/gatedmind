@@ -5,6 +5,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d001",
+   "kind": "money",
    "owner": "p013",
    "scope": "dept",
    "subject": "the contract value for the Brightline account",
@@ -22,6 +23,7 @@
     "role:director"
    ],
    "id": "d002",
+   "kind": "date",
    "owner": "p010",
    "scope": "managers",
    "subject": "the release freeze date for the billing service",
@@ -38,6 +40,7 @@
     "all"
    ],
    "id": "d003",
+   "kind": "code",
    "owner": "p027",
    "scope": "public",
    "subject": "the payment terms code for vendor Lumen Desk",
@@ -54,6 +57,7 @@
     "dept:people"
    ],
    "id": "d004",
+   "kind": "money",
    "owner": "p034",
    "scope": "dept",
    "subject": "the salary band for mid-level engineers",
@@ -68,6 +72,7 @@
    "folder": "people/handbook",
    "grants": [],
    "id": "d005",
+   "kind": "date",
    "owner": "p031",
    "scope": "public",
    "subject": "the review calendar start for Q3 2027",
@@ -84,6 +89,7 @@
     "dept:finance"
    ],
    "id": "d006",
+   "kind": "money",
    "owner": "p025",
    "scope": "dept",
    "subject": "the travel budget for the engineering department in Q2 2027",
@@ -98,6 +104,7 @@
    "folder": "engineering/team",
    "grants": [],
    "id": "d007",
+   "kind": "code",
    "owner": "p002",
    "scope": "dept",
    "subject": "the rollback code for the search service",
@@ -114,6 +121,7 @@
     "dept:finance"
    ],
    "id": "d008",
+   "kind": "money",
    "owner": "p026",
    "scope": "dept",
    "subject": "the travel budget for the people department in Q3 2027",
@@ -130,6 +138,7 @@
     "dept:sales"
    ],
    "id": "d009",
+   "kind": "date",
    "owner": "p012",
    "scope": "dept",
    "subject": "the renewal date for the Acme Foods account",
@@ -146,6 +155,7 @@
     "all"
    ],
    "id": "d010",
+   "kind": "money",
    "owner": "p013",
    "scope": "public",
    "subject": "the quota for the north region in Q4 2027",
@@ -160,6 +170,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d011",
+   "kind": "money",
    "owner": "p013",
    "scope": "dept",
    "subject": "the pipeline target for Q3 2027",
@@ -176,6 +187,7 @@
     "role:director"
    ],
    "id": "d012",
+   "kind": "date",
    "owner": "p021",
    "scope": "directors",
    "subject": "the insurance renewal date for Q2 2027",
@@ -190,6 +202,7 @@
    "folder": "finance/leads",
    "grants": [],
    "id": "d013",
+   "kind": "money",
    "owner": "p029",
    "scope": "leads",
    "subject": "the cash reserve floor for Q2 2027",
@@ -204,6 +217,7 @@
    "folder": "people/team",
    "grants": [],
    "id": "d014",
+   "kind": "count",
    "owner": "p033",
    "scope": "dept",
    "subject": "the onboarding buddy pool size for the people department",
@@ -221,6 +235,7 @@
     "role:director"
    ],
    "id": "d015",
+   "kind": "date",
    "owner": "p023",
    "scope": "managers",
    "subject": "the insurance renewal date for Q3 2027",
@@ -237,6 +252,7 @@
     "role:director"
    ],
    "id": "d016",
+   "kind": "money",
    "owner": "p020",
    "scope": "directors",
    "subject": "the quota for the west region in Q3 2027",
@@ -253,6 +269,7 @@
     "dept:people"
    ],
    "id": "d017",
+   "kind": "count",
    "owner": "p036",
    "scope": "dept",
    "subject": "the onboarding buddy pool size for the finance department",
@@ -269,6 +286,7 @@
     "role:director"
    ],
    "id": "d018",
+   "kind": "money",
    "owner": "p040",
    "scope": "directors",
    "subject": "the salary band for senior engineers",
@@ -285,6 +303,7 @@
     "dept:finance"
    ],
    "id": "d019",
+   "kind": "money",
    "owner": "p022",
    "scope": "dept",
    "subject": "the cash reserve floor for Q3 2027",
@@ -301,6 +320,7 @@
     "dept:engineering"
    ],
    "id": "d020",
+   "kind": "date",
    "owner": "p007",
    "scope": "dept",
    "subject": "the database migration window for project fjord",
@@ -317,6 +337,7 @@
     "role:director"
    ],
    "id": "d021",
+   "kind": "money",
    "owner": "p017",
    "scope": "directors",
    "subject": "the quota for the east region in Q3 2027",
@@ -331,6 +352,7 @@
    "folder": "people/team",
    "grants": [],
    "id": "d022",
+   "kind": "count",
    "owner": "p039",
    "scope": "dept",
    "subject": "the headcount plan for the engineering department in Q3 2027",
@@ -345,6 +367,7 @@
    "folder": "projects/beacon",
    "grants": [],
    "id": "d023",
+   "kind": "date",
    "owner": "p004",
    "scope": "project",
    "subject": "the code freeze date for project beacon",
@@ -361,6 +384,7 @@
     "dept:finance"
    ],
    "id": "d024",
+   "kind": "money",
    "owner": "p029",
    "scope": "dept",
    "subject": "the travel budget for the sales department in Q3 2027",
@@ -377,6 +401,7 @@
     "role:director"
    ],
    "id": "d025",
+   "kind": "money",
    "owner": "p027",
    "scope": "directors",
    "subject": "the Q4 2027 budget for project fjord",
@@ -393,6 +418,7 @@
     "role:director"
    ],
    "id": "d026",
+   "kind": "money",
    "owner": "p030",
    "scope": "directors",
    "subject": "the cash reserve floor for Q4 2027",
@@ -407,6 +433,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d027",
+   "kind": "date",
    "owner": "p036",
    "scope": "managers",
    "subject": "the hiring freeze date for the sales department",
@@ -423,6 +450,7 @@
     "role:director"
    ],
    "id": "d028",
+   "kind": "percent",
    "owner": "p013",
    "scope": "directors",
    "subject": "the discount ceiling for the south region",
@@ -437,6 +465,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d029",
+   "kind": "money",
    "owner": "p029",
    "scope": "managers",
    "subject": "the Q2 2027 budget for project delta",
@@ -451,6 +480,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d030",
+   "kind": "percent",
    "owner": "p022",
    "scope": "directors",
    "subject": "the forecast variance for project fjord",
@@ -465,6 +495,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d031",
+   "kind": "money",
    "owner": "p034",
    "scope": "managers",
    "subject": "the relocation stipend for the Denver office",
@@ -481,6 +512,7 @@
     "dept:people"
    ],
    "id": "d032",
+   "kind": "money",
    "owner": "p033",
    "scope": "dept",
    "subject": "the relocation stipend for the Portland office",
@@ -497,6 +529,7 @@
     "role:director"
    ],
    "id": "d033",
+   "kind": "code",
    "owner": "p010",
    "scope": "directors",
    "subject": "the on-call escalation code for project cobalt",
@@ -514,6 +547,7 @@
     "role:director"
    ],
    "id": "d034",
+   "kind": "money",
    "owner": "p018",
    "scope": "managers",
    "subject": "the quota for the north region in Q2 2027",
@@ -530,6 +564,7 @@
     "dept:engineering"
    ],
    "id": "d035",
+   "kind": "rate",
    "owner": "p004",
    "scope": "dept",
    "subject": "the API rate limit for project delta",
@@ -546,6 +581,7 @@
     "all"
    ],
    "id": "d036",
+   "kind": "money",
    "owner": "p021",
    "scope": "public",
    "subject": "the Q4 2027 budget for project delta",
@@ -562,6 +598,7 @@
     "all"
    ],
    "id": "d037",
+   "kind": "money",
    "owner": "p035",
    "scope": "public",
    "subject": "the relocation stipend for the Austin office",
@@ -578,6 +615,7 @@
     "dept:engineering"
    ],
    "id": "d038",
+   "kind": "date",
    "owner": "p004",
    "scope": "dept",
    "subject": "the release freeze date for the reports service",
@@ -592,6 +630,7 @@
    "folder": "engineering/team",
    "grants": [],
    "id": "d039",
+   "kind": "date",
    "owner": "p004",
    "scope": "dept",
    "subject": "the code freeze date for project ember",
@@ -606,6 +645,7 @@
    "folder": "engineering/leads",
    "grants": [],
    "id": "d040",
+   "kind": "date",
    "owner": "p001",
    "scope": "leads",
    "subject": "the release freeze date for the mobile service",
@@ -622,6 +662,7 @@
     "all"
    ],
    "id": "d041",
+   "kind": "percent",
    "owner": "p011",
    "scope": "public",
    "subject": "the discount ceiling for the east region",
@@ -636,6 +677,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d042",
+   "kind": "date",
    "owner": "p013",
    "scope": "directors",
    "subject": "the onboarding call date for the Corvid Labs account",
@@ -652,6 +694,7 @@
     "dept:finance"
    ],
    "id": "d043",
+   "kind": "money",
    "owner": "p023",
    "scope": "dept",
    "subject": "the travel budget for the engineering department in Q1 2027",
@@ -668,6 +711,7 @@
     "role:director"
    ],
    "id": "d044",
+   "kind": "money",
    "owner": "p020",
    "scope": "directors",
    "subject": "the price floor for the Foxglove account",
@@ -685,6 +729,7 @@
     "role:director"
    ],
    "id": "d045",
+   "kind": "money",
    "owner": "p012",
    "scope": "managers",
    "subject": "the quota for the north region in Q3 2027",
@@ -699,6 +744,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d046",
+   "kind": "percent",
    "owner": "p029",
    "scope": "managers",
    "subject": "the forecast variance for project cobalt",
@@ -715,6 +761,7 @@
     "all"
    ],
    "id": "d047",
+   "kind": "date",
    "owner": "p025",
    "scope": "public",
    "subject": "the audit date for Q4 2027",
@@ -731,6 +778,7 @@
     "role:director"
    ],
    "id": "d048",
+   "kind": "percent",
    "owner": "p010",
    "scope": "directors",
    "subject": "the error budget for the billing service",
@@ -747,6 +795,7 @@
     "all"
    ],
    "id": "d049",
+   "kind": "money",
    "owner": "p012",
    "scope": "public",
    "subject": "the contract value for the Elstree account",
@@ -763,6 +812,7 @@
     "dept:finance"
    ],
    "id": "d050",
+   "kind": "date",
    "owner": "p022",
    "scope": "dept",
    "subject": "the insurance renewal date for Q4 2027",
@@ -777,6 +827,7 @@
    "folder": "engineering/handbook",
    "grants": [],
    "id": "d051",
+   "kind": "date",
    "owner": "p010",
    "scope": "public",
    "subject": "the database migration window for project ember",
@@ -791,6 +842,7 @@
    "folder": "engineering/team",
    "grants": [],
    "id": "d052",
+   "kind": "code",
    "owner": "p009",
    "scope": "dept",
    "subject": "the security review code for project cobalt",
@@ -805,6 +857,7 @@
    "folder": "people/team",
    "grants": [],
    "id": "d053",
+   "kind": "count",
    "owner": "p032",
    "scope": "dept",
    "subject": "the headcount plan for the sales department in Q4 2027",
@@ -821,6 +874,7 @@
     "role:director"
    ],
    "id": "d054",
+   "kind": "money",
    "owner": "p018",
    "scope": "directors",
    "subject": "the trade show budget for the north region",
@@ -835,6 +889,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d055",
+   "kind": "money",
    "owner": "p018",
    "scope": "directors",
    "subject": "the contract value for the Foxglove account",
@@ -852,6 +907,7 @@
     "role:director"
    ],
    "id": "d056",
+   "kind": "date",
    "owner": "p017",
    "scope": "managers",
    "subject": "the renewal date for the Foxglove account",
@@ -869,6 +925,7 @@
     "role:director"
    ],
    "id": "d057",
+   "kind": "money",
    "owner": "p015",
    "scope": "managers",
    "subject": "the quota for the south region in Q3 2027",
@@ -885,6 +942,7 @@
     "dept:engineering"
    ],
    "id": "d058",
+   "kind": "date",
    "owner": "p010",
    "scope": "dept",
    "subject": "the release freeze date for the search service",
@@ -901,6 +959,7 @@
     "project:cobalt"
    ],
    "id": "d059",
+   "kind": "money",
    "owner": "p026",
    "scope": "project",
    "subject": "the Q1 2027 budget for project cobalt",
@@ -915,6 +974,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d060",
+   "kind": "date",
    "owner": "p028",
    "scope": "board",
    "subject": "the audit date for Q3 2027",
@@ -931,6 +991,7 @@
     "dept:people"
    ],
    "id": "d061",
+   "kind": "count",
    "owner": "p035",
    "scope": "dept",
    "subject": "the headcount plan for the engineering department in Q4 2027",
@@ -947,6 +1008,7 @@
     "role:director"
    ],
    "id": "d062",
+   "kind": "count",
    "owner": "p034",
    "scope": "directors",
    "subject": "the headcount plan for the finance department in Q1 2027",
@@ -963,6 +1025,7 @@
     "all"
    ],
    "id": "d063",
+   "kind": "percent",
    "owner": "p018",
    "scope": "public",
    "subject": "the discount ceiling for the north region",
@@ -979,6 +1042,7 @@
     "all"
    ],
    "id": "d064",
+   "kind": "rate",
    "owner": "p006",
    "scope": "public",
    "subject": "the API rate limit for project beacon",
@@ -993,6 +1057,7 @@
    "folder": "projects/cobalt",
    "grants": [],
    "id": "d065",
+   "kind": "code",
    "owner": "p022",
    "scope": "project",
    "subject": "the capital request number for project cobalt",
@@ -1009,6 +1074,7 @@
     "dept:engineering"
    ],
    "id": "d066",
+   "kind": "code",
    "owner": "p004",
    "scope": "dept",
    "subject": "the incident review number for the billing outage",
@@ -1023,6 +1089,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d067",
+   "kind": "code",
    "owner": "p006",
    "scope": "managers",
    "subject": "the security review code for project beacon",
@@ -1039,6 +1106,7 @@
     "dept:engineering"
    ],
    "id": "d068",
+   "kind": "code",
    "owner": "p005",
    "scope": "dept",
    "subject": "the incident review number for the login outage",
@@ -1055,6 +1123,7 @@
     "project:atlas"
    ],
    "id": "d069",
+   "kind": "rate",
    "owner": "p004",
    "scope": "project",
    "subject": "the API rate limit for project atlas",
@@ -1072,6 +1141,7 @@
     "role:director"
    ],
    "id": "d070",
+   "kind": "rate",
    "owner": "p001",
    "scope": "managers",
    "subject": "the load test target for the login service",
@@ -1088,6 +1158,7 @@
     "role:director"
    ],
    "id": "d071",
+   "kind": "code",
    "owner": "p002",
    "scope": "directors",
    "subject": "the incident review number for the search outage",
@@ -1102,6 +1173,7 @@
    "folder": "people/compensation",
    "grants": [],
    "id": "d072",
+   "kind": "count",
    "owner": "p031",
    "scope": "compensation",
    "subject": "the headcount plan for the sales department in Q1 2027",
@@ -1116,6 +1188,7 @@
    "folder": "projects/cobalt",
    "grants": [],
    "id": "d073",
+   "kind": "money",
    "owner": "p029",
    "scope": "project",
    "subject": "the Q4 2027 budget for project cobalt",
@@ -1132,6 +1205,7 @@
     "role:director"
    ],
    "id": "d074",
+   "kind": "code",
    "owner": "p022",
    "scope": "directors",
    "subject": "the payment terms code for vendor Kestrel Cloud",
@@ -1148,6 +1222,7 @@
     "dept:people"
    ],
    "id": "d075",
+   "kind": "count",
    "owner": "p037",
    "scope": "dept",
    "subject": "the headcount plan for the engineering department in Q2 2027",
@@ -1162,6 +1237,7 @@
    "folder": "finance/leads",
    "grants": [],
    "id": "d076",
+   "kind": "code",
    "owner": "p025",
    "scope": "leads",
    "subject": "the payment terms code for vendor Ironleaf",
@@ -1179,6 +1255,7 @@
     "role:director"
    ],
    "id": "d077",
+   "kind": "count",
    "owner": "p031",
    "scope": "managers",
    "subject": "the onboarding buddy pool size for the sales department",
@@ -1195,6 +1272,7 @@
     "dept:finance"
    ],
    "id": "d078",
+   "kind": "money",
    "owner": "p029",
    "scope": "dept",
    "subject": "the travel budget for the finance department in Q4 2027",
@@ -1211,6 +1289,7 @@
     "dept:finance"
    ],
    "id": "d079",
+   "kind": "date",
    "owner": "p030",
    "scope": "dept",
    "subject": "the insurance renewal date for Q1 2027",
@@ -1227,6 +1306,7 @@
     "dept:sales"
    ],
    "id": "d080",
+   "kind": "date",
    "owner": "p013",
    "scope": "dept",
    "subject": "the onboarding call date for the Dunmore account",
@@ -1243,6 +1323,7 @@
     "dept:finance"
    ],
    "id": "d081",
+   "kind": "code",
    "owner": "p021",
    "scope": "dept",
    "subject": "the capital request number for project delta",
@@ -1257,6 +1338,7 @@
    "folder": "people/handbook",
    "grants": [],
    "id": "d082",
+   "kind": "count",
    "owner": "p038",
    "scope": "public",
    "subject": "the headcount plan for the engineering department in Q1 2027",
@@ -1274,6 +1356,7 @@
     "role:director"
    ],
    "id": "d083",
+   "kind": "money",
    "owner": "p019",
    "scope": "managers",
    "subject": "the pipeline target for Q2 2027",
@@ -1290,6 +1373,7 @@
     "role:director"
    ],
    "id": "d084",
+   "kind": "date",
    "owner": "p001",
    "scope": "directors",
    "subject": "the release freeze date for the login service",
@@ -1304,6 +1388,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d085",
+   "kind": "money",
    "owner": "p018",
    "scope": "directors",
    "subject": "the trade show budget for the east region",
@@ -1320,6 +1405,7 @@
     "dept:finance"
    ],
    "id": "d086",
+   "kind": "money",
    "owner": "p026",
    "scope": "dept",
    "subject": "the Q3 2027 budget for project atlas",
@@ -1336,6 +1422,7 @@
     "dept:people"
    ],
    "id": "d087",
+   "kind": "money",
    "owner": "p036",
    "scope": "dept",
    "subject": "the salary band for principal engineers",
@@ -1352,6 +1439,7 @@
     "dept:sales"
    ],
    "id": "d088",
+   "kind": "money",
    "owner": "p018",
    "scope": "dept",
    "subject": "the pipeline target for Q1 2027",
@@ -1368,6 +1456,7 @@
     "dept:finance"
    ],
    "id": "d089",
+   "kind": "money",
    "owner": "p023",
    "scope": "dept",
    "subject": "the travel budget for the people department in Q2 2027",
@@ -1384,6 +1473,7 @@
     "dept:people"
    ],
    "id": "d090",
+   "kind": "money",
    "owner": "p037",
    "scope": "dept",
    "subject": "the training budget for the finance department",
@@ -1401,6 +1491,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d091",
+   "kind": "date",
    "owner": "p009",
    "scope": "leads",
    "subject": "the database migration window for project delta",
@@ -1415,6 +1506,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d092",
+   "kind": "percent",
    "owner": "p002",
    "scope": "managers",
    "subject": "the error budget for the payments service",
@@ -1429,6 +1521,7 @@
    "folder": "people/compensation",
    "grants": [],
    "id": "d093",
+   "kind": "money",
    "owner": "p036",
    "scope": "compensation",
    "subject": "the salary band for staff engineers",
@@ -1443,6 +1536,7 @@
    "folder": "finance/team",
    "grants": [],
    "id": "d094",
+   "kind": "money",
    "owner": "p026",
    "scope": "dept",
    "subject": "the Q2 2027 budget for project beacon",
@@ -1457,6 +1551,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d095",
+   "kind": "rate",
    "owner": "p005",
    "scope": "managers",
    "subject": "the API rate limit for project ember",
@@ -1474,6 +1569,7 @@
     "role:director"
    ],
    "id": "d096",
+   "kind": "percent",
    "owner": "p010",
    "scope": "managers",
    "subject": "the error budget for the login service",
@@ -1490,6 +1586,7 @@
     "all"
    ],
    "id": "d097",
+   "kind": "money",
    "owner": "p011",
    "scope": "public",
    "subject": "the quota for the central region in Q4 2027",
@@ -1506,6 +1603,7 @@
     "dept:finance"
    ],
    "id": "d098",
+   "kind": "code",
    "owner": "p025",
    "scope": "dept",
    "subject": "the payment terms code for vendor Juniper Print",
@@ -1520,6 +1618,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d099",
+   "kind": "money",
    "owner": "p019",
    "scope": "dept",
    "subject": "the price floor for the Dunmore account",
@@ -1536,6 +1635,7 @@
     "all"
    ],
    "id": "d100",
+   "kind": "money",
    "owner": "p011",
    "scope": "public",
    "subject": "the contract value for the Halcyon account",
@@ -1553,6 +1653,7 @@
     "role:director"
    ],
    "id": "d101",
+   "kind": "code",
    "owner": "p029",
    "scope": "managers",
    "subject": "the payment terms code for vendor Marlow Freight",
@@ -1570,6 +1671,7 @@
     "role:director"
    ],
    "id": "d102",
+   "kind": "percent",
    "owner": "p008",
    "scope": "managers",
    "subject": "the error budget for the mobile service",
@@ -1586,6 +1688,7 @@
     "dept:sales"
    ],
    "id": "d103",
+   "kind": "money",
    "owner": "p013",
    "scope": "dept",
    "subject": "the contract value for the Granite Bay account",
@@ -1602,6 +1705,7 @@
     "role:director"
    ],
    "id": "d104",
+   "kind": "money",
    "owner": "p012",
    "scope": "directors",
    "subject": "the trade show budget for the west region",
@@ -1618,6 +1722,7 @@
     "dept:sales"
    ],
    "id": "d105",
+   "kind": "money",
    "owner": "p014",
    "scope": "dept",
    "subject": "the price floor for the Elstree account",
@@ -1632,6 +1737,7 @@
    "folder": "engineering/leads",
    "grants": [],
    "id": "d106",
+   "kind": "code",
    "owner": "p005",
    "scope": "leads",
    "subject": "the rollback code for the login service",
@@ -1649,6 +1755,7 @@
     "deptrole:people/director"
    ],
    "id": "d107",
+   "kind": "count",
    "owner": "p031",
    "scope": "leads",
    "subject": "the onboarding buddy pool size for the engineering department",
@@ -1665,6 +1772,7 @@
     "all"
    ],
    "id": "d108",
+   "kind": "money",
    "owner": "p019",
    "scope": "public",
    "subject": "the quota for the east region in Q1 2027",
@@ -1679,6 +1787,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d109",
+   "kind": "percent",
    "owner": "p018",
    "scope": "directors",
    "subject": "the commission rate for the east region",
@@ -1695,6 +1804,7 @@
     "dept:finance"
    ],
    "id": "d110",
+   "kind": "code",
    "owner": "p023",
    "scope": "dept",
    "subject": "the capital request number for project fjord",
@@ -1711,6 +1821,7 @@
     "dept:finance"
    ],
    "id": "d111",
+   "kind": "money",
    "owner": "p029",
    "scope": "dept",
    "subject": "the travel budget for the engineering department in Q3 2027",
@@ -1727,6 +1838,7 @@
     "role:director"
    ],
    "id": "d112",
+   "kind": "money",
    "owner": "p025",
    "scope": "directors",
    "subject": "the travel budget for the people department in Q1 2027",
@@ -1741,6 +1853,7 @@
    "folder": "finance/team",
    "grants": [],
    "id": "d113",
+   "kind": "percent",
    "owner": "p029",
    "scope": "dept",
    "subject": "the forecast variance for project delta",
@@ -1755,6 +1868,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d114",
+   "kind": "date",
    "owner": "p013",
    "scope": "dept",
    "subject": "the renewal date for the Dunmore account",
@@ -1771,6 +1885,7 @@
     "dept:sales"
    ],
    "id": "d115",
+   "kind": "money",
    "owner": "p016",
    "scope": "dept",
    "subject": "the quota for the south region in Q2 2027",
@@ -1785,6 +1900,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d116",
+   "kind": "code",
    "owner": "p021",
    "scope": "board",
    "subject": "the capital request number for project atlas",
@@ -1801,6 +1917,7 @@
     "dept:finance"
    ],
    "id": "d117",
+   "kind": "money",
    "owner": "p023",
    "scope": "dept",
    "subject": "the travel budget for the finance department in Q2 2027",
@@ -1817,6 +1934,7 @@
     "role:director"
    ],
    "id": "d118",
+   "kind": "money",
    "owner": "p030",
    "scope": "directors",
    "subject": "the Q4 2027 budget for project ember",
@@ -1834,6 +1952,7 @@
     "role:director"
    ],
    "id": "d119",
+   "kind": "code",
    "owner": "p009",
    "scope": "managers",
    "subject": "the security review code for project atlas",
@@ -1850,6 +1969,7 @@
     "dept:sales"
    ],
    "id": "d120",
+   "kind": "money",
    "owner": "p018",
    "scope": "dept",
    "subject": "the quota for the east region in Q4 2027",
@@ -1867,6 +1987,7 @@
     "role:director"
    ],
    "id": "d121",
+   "kind": "money",
    "owner": "p021",
    "scope": "managers",
    "subject": "the Q2 2027 budget for project fjord",
@@ -1884,6 +2005,7 @@
     "role:director"
    ],
    "id": "d122",
+   "kind": "count",
    "owner": "p037",
    "scope": "managers",
    "subject": "the headcount plan for the people department in Q4 2027",
@@ -1900,6 +2022,7 @@
     "project:atlas"
    ],
    "id": "d123",
+   "kind": "money",
    "owner": "p024",
    "scope": "project",
    "subject": "the Q4 2027 budget for project atlas",
@@ -1914,6 +2037,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d124",
+   "kind": "date",
    "owner": "p005",
    "scope": "directors",
    "subject": "the code freeze date for project cobalt",
@@ -1931,6 +2055,7 @@
     "deptrole:sales/director"
    ],
    "id": "d125",
+   "kind": "money",
    "owner": "p019",
    "scope": "leads",
    "subject": "the price floor for the Halcyon account",
@@ -1948,6 +2073,7 @@
     "role:director"
    ],
    "id": "d126",
+   "kind": "money",
    "owner": "p014",
    "scope": "managers",
    "subject": "the quota for the central region in Q2 2027",
@@ -1964,6 +2090,7 @@
     "dept:finance"
    ],
    "id": "d127",
+   "kind": "money",
    "owner": "p023",
    "scope": "dept",
    "subject": "the travel budget for the finance department in Q3 2027",
@@ -1981,6 +2108,7 @@
     "role:director"
    ],
    "id": "d128",
+   "kind": "percent",
    "owner": "p001",
    "scope": "managers",
    "subject": "the error budget for the search service",
@@ -1995,6 +2123,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d129",
+   "kind": "date",
    "owner": "p014",
    "scope": "dept",
    "subject": "the renewal date for the Corvid Labs account",
@@ -2009,6 +2138,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d130",
+   "kind": "date",
    "owner": "p022",
    "scope": "board",
    "subject": "the audit date for Q1 2027",
@@ -2023,6 +2153,7 @@
    "folder": "engineering/team",
    "grants": [],
    "id": "d131",
+   "kind": "code",
    "owner": "p008",
    "scope": "dept",
    "subject": "the security review code for project delta",
@@ -2039,6 +2170,7 @@
     "all"
    ],
    "id": "d132",
+   "kind": "code",
    "owner": "p004",
    "scope": "public",
    "subject": "the on-call escalation code for project fjord",
@@ -2055,6 +2187,7 @@
     "role:director"
    ],
    "id": "d133",
+   "kind": "money",
    "owner": "p018",
    "scope": "directors",
    "subject": "the contract value for the Dunmore account",
@@ -2071,6 +2204,7 @@
     "dept:engineering"
    ],
    "id": "d134",
+   "kind": "code",
    "owner": "p007",
    "scope": "dept",
    "subject": "the rollback code for the mobile service",
@@ -2085,6 +2219,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d135",
+   "kind": "date",
    "owner": "p013",
    "scope": "dept",
    "subject": "the onboarding call date for the Halcyon account",
@@ -2099,6 +2234,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d136",
+   "kind": "percent",
    "owner": "p016",
    "scope": "dept",
    "subject": "the discount ceiling for the central region",
@@ -2115,6 +2251,7 @@
     "all"
    ],
    "id": "d137",
+   "kind": "code",
    "owner": "p006",
    "scope": "public",
    "subject": "the incident review number for the payments outage",
@@ -2131,6 +2268,7 @@
     "role:director"
    ],
    "id": "d138",
+   "kind": "percent",
    "owner": "p019",
    "scope": "directors",
    "subject": "the commission rate for the south region",
@@ -2145,6 +2283,7 @@
    "folder": "engineering/leads",
    "grants": [],
    "id": "d139",
+   "kind": "code",
    "owner": "p010",
    "scope": "leads",
    "subject": "the rollback code for the billing service",
@@ -2161,6 +2300,7 @@
     "dept:sales"
    ],
    "id": "d140",
+   "kind": "money",
    "owner": "p014",
    "scope": "dept",
    "subject": "the contract value for the Acme Foods account",
@@ -2178,6 +2318,7 @@
     "role:director"
    ],
    "id": "d141",
+   "kind": "money",
    "owner": "p018",
    "scope": "managers",
    "subject": "the quota for the west region in Q1 2027",
@@ -2194,6 +2335,7 @@
     "dept:people"
    ],
    "id": "d142",
+   "kind": "date",
    "owner": "p031",
    "scope": "dept",
    "subject": "the review calendar start for Q4 2027",
@@ -2211,6 +2353,7 @@
     "role:director"
    ],
    "id": "d143",
+   "kind": "money",
    "owner": "p013",
    "scope": "managers",
    "subject": "the quota for the south region in Q1 2027",
@@ -2227,6 +2370,7 @@
     "dept:engineering"
    ],
    "id": "d144",
+   "kind": "date",
    "owner": "p008",
    "scope": "dept",
    "subject": "the database migration window for project atlas",
@@ -2243,6 +2387,7 @@
     "role:director"
    ],
    "id": "d145",
+   "kind": "code",
    "owner": "p002",
    "scope": "directors",
    "subject": "the incident review number for the mobile outage",
@@ -2257,6 +2402,7 @@
    "folder": "sales/handbook",
    "grants": [],
    "id": "d146",
+   "kind": "money",
    "owner": "p017",
    "scope": "public",
    "subject": "the price floor for the Granite Bay account",
@@ -2273,6 +2419,7 @@
     "dept:sales"
    ],
    "id": "d147",
+   "kind": "date",
    "owner": "p020",
    "scope": "dept",
    "subject": "the onboarding call date for the Elstree account",
@@ -2289,6 +2436,7 @@
     "dept:sales"
    ],
    "id": "d148",
+   "kind": "money",
    "owner": "p018",
    "scope": "dept",
    "subject": "the quota for the south region in Q4 2027",
@@ -2306,6 +2454,7 @@
     "role:director"
    ],
    "id": "d149",
+   "kind": "money",
    "owner": "p016",
    "scope": "managers",
    "subject": "the price floor for the Brightline account",
@@ -2322,6 +2471,7 @@
     "dept:sales"
    ],
    "id": "d150",
+   "kind": "money",
    "owner": "p016",
    "scope": "dept",
    "subject": "the quota for the north region in Q1 2027",
@@ -2339,6 +2489,7 @@
     "role:director"
    ],
    "id": "d151",
+   "kind": "percent",
    "owner": "p016",
    "scope": "managers",
    "subject": "the commission rate for the central region",
@@ -2356,6 +2507,7 @@
     "deptrole:people/director"
    ],
    "id": "d152",
+   "kind": "date",
    "owner": "p034",
    "scope": "leads",
    "subject": "the hiring freeze date for the finance department",
@@ -2372,6 +2524,7 @@
     "project:beacon"
    ],
    "id": "d153",
+   "kind": "money",
    "owner": "p029",
    "scope": "project",
    "subject": "the Q1 2027 budget for project beacon",
@@ -2388,6 +2541,7 @@
     "all"
    ],
    "id": "d154",
+   "kind": "money",
    "owner": "p026",
    "scope": "public",
    "subject": "the cash reserve floor for Q1 2027",
@@ -2404,6 +2558,7 @@
     "all"
    ],
    "id": "d155",
+   "kind": "percent",
    "owner": "p001",
    "scope": "public",
    "subject": "the error budget for the reports service",
@@ -2420,6 +2575,7 @@
     "dept:engineering"
    ],
    "id": "d156",
+   "kind": "rate",
    "owner": "p010",
    "scope": "dept",
    "subject": "the load test target for the billing service",
@@ -2436,6 +2592,7 @@
     "dept:engineering"
    ],
    "id": "d157",
+   "kind": "rate",
    "owner": "p001",
    "scope": "dept",
    "subject": "the API rate limit for project fjord",
@@ -2453,6 +2610,7 @@
     "deptrole:sales/director"
    ],
    "id": "d158",
+   "kind": "money",
    "owner": "p017",
    "scope": "leads",
    "subject": "the trade show budget for the central region",
@@ -2467,6 +2625,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d159",
+   "kind": "date",
    "owner": "p033",
    "scope": "managers",
    "subject": "the review calendar start for Q1 2027",
@@ -2483,6 +2642,7 @@
     "all"
    ],
    "id": "d160",
+   "kind": "rate",
    "owner": "p007",
    "scope": "public",
    "subject": "the load test target for the mobile service",
@@ -2497,6 +2657,7 @@
    "folder": "finance/leads",
    "grants": [],
    "id": "d161",
+   "kind": "money",
    "owner": "p023",
    "scope": "leads",
    "subject": "the travel budget for the sales department in Q1 2027",
@@ -2514,6 +2675,7 @@
     "role:director"
    ],
    "id": "d162",
+   "kind": "code",
    "owner": "p009",
    "scope": "managers",
    "subject": "the incident review number for the reports outage",
@@ -2528,6 +2690,7 @@
    "folder": "people/compensation",
    "grants": [],
    "id": "d163",
+   "kind": "count",
    "owner": "p040",
    "scope": "compensation",
    "subject": "the headcount plan for the sales department in Q2 2027",
@@ -2544,6 +2707,7 @@
     "dept:sales"
    ],
    "id": "d164",
+   "kind": "percent",
    "owner": "p015",
    "scope": "dept",
    "subject": "the discount ceiling for the west region",
@@ -2561,6 +2725,7 @@
     "role:director"
    ],
    "id": "d165",
+   "kind": "money",
    "owner": "p012",
    "scope": "managers",
    "subject": "the trade show budget for the south region",
@@ -2575,6 +2740,7 @@
    "folder": "people/compensation",
    "grants": [],
    "id": "d166",
+   "kind": "money",
    "owner": "p033",
    "scope": "compensation",
    "subject": "the training budget for the people department",
@@ -2589,6 +2755,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d167",
+   "kind": "money",
    "owner": "p013",
    "scope": "dept",
    "subject": "the price floor for the Acme Foods account",
@@ -2605,6 +2772,7 @@
     "role:director"
    ],
    "id": "d168",
+   "kind": "code",
    "owner": "p001",
    "scope": "directors",
    "subject": "the on-call escalation code for project ember",
@@ -2621,6 +2789,7 @@
     "role:director"
    ],
    "id": "d169",
+   "kind": "date",
    "owner": "p004",
    "scope": "directors",
    "subject": "the code freeze date for project delta",
@@ -2638,6 +2807,7 @@
     "role:director"
    ],
    "id": "d170",
+   "kind": "date",
    "owner": "p001",
    "scope": "managers",
    "subject": "the code freeze date for project atlas",
@@ -2654,6 +2824,7 @@
     "dept:engineering"
    ],
    "id": "d171",
+   "kind": "date",
    "owner": "p005",
    "scope": "dept",
    "subject": "the database migration window for project cobalt",
@@ -2670,6 +2841,7 @@
     "dept:sales"
    ],
    "id": "d172",
+   "kind": "percent",
    "owner": "p011",
    "scope": "dept",
    "subject": "the commission rate for the north region",
@@ -2686,6 +2858,7 @@
     "dept:finance"
    ],
    "id": "d173",
+   "kind": "money",
    "owner": "p027",
    "scope": "dept",
    "subject": "the travel budget for the engineering department in Q4 2027",
@@ -2702,6 +2875,7 @@
     "all"
    ],
    "id": "d174",
+   "kind": "date",
    "owner": "p010",
    "scope": "public",
    "subject": "the code freeze date for project fjord",
@@ -2716,6 +2890,7 @@
    "folder": "engineering/leads",
    "grants": [],
    "id": "d175",
+   "kind": "rate",
    "owner": "p001",
    "scope": "leads",
    "subject": "the load test target for the reports service",
@@ -2730,6 +2905,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d176",
+   "kind": "money",
    "owner": "p030",
    "scope": "board",
    "subject": "the Q3 2027 budget for project ember",
@@ -2744,6 +2920,7 @@
    "folder": "people/team",
    "grants": [],
    "id": "d177",
+   "kind": "count",
    "owner": "p032",
    "scope": "dept",
    "subject": "the headcount plan for the sales department in Q3 2027",
@@ -2760,6 +2937,7 @@
     "all"
    ],
    "id": "d178",
+   "kind": "rate",
    "owner": "p004",
    "scope": "public",
    "subject": "the load test target for the payments service",
@@ -2774,6 +2952,7 @@
    "folder": "finance/leads",
    "grants": [],
    "id": "d179",
+   "kind": "code",
    "owner": "p028",
    "scope": "leads",
    "subject": "the capital request number for project beacon",
@@ -2790,6 +2969,7 @@
     "dept:people"
    ],
    "id": "d180",
+   "kind": "date",
    "owner": "p033",
    "scope": "dept",
    "subject": "the hiring freeze date for the engineering department",
@@ -2804,6 +2984,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d181",
+   "kind": "date",
    "owner": "p002",
    "scope": "directors",
    "subject": "the database migration window for project beacon",
@@ -2820,6 +3001,7 @@
     "dept:finance"
    ],
    "id": "d182",
+   "kind": "money",
    "owner": "p026",
    "scope": "dept",
    "subject": "the Q3 2027 budget for project fjord",
@@ -2836,6 +3018,7 @@
     "role:director"
    ],
    "id": "d183",
+   "kind": "count",
    "owner": "p035",
    "scope": "directors",
    "subject": "the headcount plan for the finance department in Q2 2027",
@@ -2853,6 +3036,7 @@
     "role:director"
    ],
    "id": "d184",
+   "kind": "money",
    "owner": "p012",
    "scope": "managers",
    "subject": "the quota for the east region in Q2 2027",
@@ -2869,6 +3053,7 @@
     "dept:finance"
    ],
    "id": "d185",
+   "kind": "percent",
    "owner": "p024",
    "scope": "dept",
    "subject": "the forecast variance for project beacon",
@@ -2883,6 +3068,7 @@
    "folder": "finance/leads",
    "grants": [],
    "id": "d186",
+   "kind": "percent",
    "owner": "p025",
    "scope": "leads",
    "subject": "the forecast variance for project ember",
@@ -2897,6 +3083,7 @@
    "folder": "people/team",
    "grants": [],
    "id": "d187",
+   "kind": "money",
    "owner": "p032",
    "scope": "dept",
    "subject": "the training budget for the engineering department",
@@ -2913,6 +3100,7 @@
     "dept:finance"
    ],
    "id": "d188",
+   "kind": "money",
    "owner": "p026",
    "scope": "dept",
    "subject": "the Q3 2027 budget for project beacon",
@@ -2929,6 +3117,7 @@
     "all"
    ],
    "id": "d189",
+   "kind": "code",
    "owner": "p010",
    "scope": "public",
    "subject": "the on-call escalation code for project atlas",
@@ -2945,6 +3134,7 @@
     "dept:people"
    ],
    "id": "d190",
+   "kind": "count",
    "owner": "p033",
    "scope": "dept",
    "subject": "the headcount plan for the finance department in Q3 2027",
@@ -2959,6 +3149,7 @@
    "folder": "sales/team",
    "grants": [],
    "id": "d191",
+   "kind": "date",
    "owner": "p012",
    "scope": "dept",
    "subject": "the renewal date for the Halcyon account",
@@ -2975,6 +3166,7 @@
     "role:director"
    ],
    "id": "d192",
+   "kind": "money",
    "owner": "p011",
    "scope": "directors",
    "subject": "the quota for the central region in Q1 2027",
@@ -2991,6 +3183,7 @@
     "dept:sales"
    ],
    "id": "d193",
+   "kind": "date",
    "owner": "p020",
    "scope": "dept",
    "subject": "the onboarding call date for the Brightline account",
@@ -3007,6 +3200,7 @@
     "dept:sales"
    ],
    "id": "d194",
+   "kind": "date",
    "owner": "p018",
    "scope": "dept",
    "subject": "the renewal date for the Granite Bay account",
@@ -3024,6 +3218,7 @@
     "deptrole:sales/director"
    ],
    "id": "d195",
+   "kind": "date",
    "owner": "p019",
    "scope": "leads",
    "subject": "the onboarding call date for the Granite Bay account",
@@ -3038,6 +3233,7 @@
    "folder": "company/managers",
    "grants": [],
    "id": "d196",
+   "kind": "money",
    "owner": "p035",
    "scope": "managers",
    "subject": "the training budget for the sales department",
@@ -3054,6 +3250,7 @@
     "project:cobalt"
    ],
    "id": "d197",
+   "kind": "money",
    "owner": "p029",
    "scope": "project",
    "subject": "the Q3 2027 budget for project cobalt",
@@ -3071,6 +3268,7 @@
     "deptrole:finance/director"
    ],
    "id": "d198",
+   "kind": "money",
    "owner": "p024",
    "scope": "leads",
    "subject": "the Q3 2027 budget for project delta",
@@ -3087,6 +3285,7 @@
     "dept:sales"
    ],
    "id": "d199",
+   "kind": "money",
    "owner": "p012",
    "scope": "dept",
    "subject": "the quota for the central region in Q3 2027",
@@ -3103,6 +3302,7 @@
     "role:director"
    ],
    "id": "d200",
+   "kind": "date",
    "owner": "p012",
    "scope": "directors",
    "subject": "the onboarding call date for the Acme Foods account",
@@ -3117,6 +3317,7 @@
    "folder": "projects/cobalt",
    "grants": [],
    "id": "d201",
+   "kind": "rate",
    "owner": "p009",
    "scope": "project",
    "subject": "the API rate limit for project cobalt",
@@ -3133,6 +3334,7 @@
     "dept:sales"
    ],
    "id": "d202",
+   "kind": "money",
    "owner": "p020",
    "scope": "dept",
    "subject": "the contract value for the Corvid Labs account",
@@ -3150,6 +3352,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d203",
+   "kind": "code",
    "owner": "p006",
    "scope": "leads",
    "subject": "the rollback code for the reports service",
@@ -3164,6 +3367,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d204",
+   "kind": "money",
    "owner": "p021",
    "scope": "board",
    "subject": "the Q1 2027 budget for project delta",
@@ -3180,6 +3384,7 @@
     "all"
    ],
    "id": "d205",
+   "kind": "money",
    "owner": "p030",
    "scope": "public",
    "subject": "the travel budget for the people department in Q4 2027",
@@ -3194,6 +3399,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d206",
+   "kind": "money",
    "owner": "p029",
    "scope": "board",
    "subject": "the Q2 2027 budget for project atlas",
@@ -3210,6 +3416,7 @@
     "all"
    ],
    "id": "d207",
+   "kind": "date",
    "owner": "p009",
    "scope": "public",
    "subject": "the release freeze date for the payments service",
@@ -3226,6 +3433,7 @@
     "dept:people"
    ],
    "id": "d208",
+   "kind": "money",
    "owner": "p031",
    "scope": "dept",
    "subject": "the relocation stipend for the Raleigh office",
@@ -3242,6 +3450,7 @@
     "dept:people"
    ],
    "id": "d209",
+   "kind": "count",
    "owner": "p035",
    "scope": "dept",
    "subject": "the headcount plan for the people department in Q3 2027",
@@ -3256,6 +3465,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d210",
+   "kind": "money",
    "owner": "p022",
    "scope": "board",
    "subject": "the travel budget for the sales department in Q2 2027",
@@ -3273,6 +3483,7 @@
     "role:director"
    ],
    "id": "d211",
+   "kind": "date",
    "owner": "p036",
    "scope": "managers",
    "subject": "the review calendar start for Q2 2027",
@@ -3290,6 +3501,7 @@
     "deptrole:people/director"
    ],
    "id": "d212",
+   "kind": "money",
    "owner": "p034",
    "scope": "leads",
    "subject": "the salary band for junior engineers",
@@ -3307,6 +3519,7 @@
     "deptrole:sales/director"
    ],
    "id": "d213",
+   "kind": "money",
    "owner": "p014",
    "scope": "leads",
    "subject": "the pipeline target for Q4 2027",
@@ -3324,6 +3537,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d214",
+   "kind": "code",
    "owner": "p008",
    "scope": "leads",
    "subject": "the on-call escalation code for project beacon",
@@ -3338,6 +3552,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d215",
+   "kind": "money",
    "owner": "p025",
    "scope": "directors",
    "subject": "the travel budget for the finance department in Q1 2027",
@@ -3352,6 +3567,7 @@
    "folder": "finance/handbook",
    "grants": [],
    "id": "d216",
+   "kind": "percent",
    "owner": "p021",
    "scope": "public",
    "subject": "the forecast variance for project atlas",
@@ -3366,6 +3582,7 @@
    "folder": "people/compensation",
    "grants": [],
    "id": "d217",
+   "kind": "count",
    "owner": "p034",
    "scope": "compensation",
    "subject": "the headcount plan for the finance department in Q4 2027",
@@ -3380,6 +3597,7 @@
    "folder": "finance/team",
    "grants": [],
    "id": "d218",
+   "kind": "date",
    "owner": "p023",
    "scope": "dept",
    "subject": "the audit date for Q2 2027",
@@ -3396,6 +3614,7 @@
     "dept:sales"
    ],
    "id": "d219",
+   "kind": "percent",
    "owner": "p018",
    "scope": "dept",
    "subject": "the commission rate for the west region",
@@ -3412,6 +3631,7 @@
     "role:director"
    ],
    "id": "d220",
+   "kind": "money",
    "owner": "p018",
    "scope": "directors",
    "subject": "the price floor for the Corvid Labs account",
@@ -3429,6 +3649,7 @@
     "deptrole:sales/director"
    ],
    "id": "d221",
+   "kind": "money",
    "owner": "p018",
    "scope": "leads",
    "subject": "the quota for the west region in Q4 2027",
@@ -3446,6 +3667,7 @@
     "role:director"
    ],
    "id": "d222",
+   "kind": "money",
    "owner": "p023",
    "scope": "managers",
    "subject": "the Q1 2027 budget for project ember",
@@ -3460,6 +3682,7 @@
    "folder": "people/handbook",
    "grants": [],
    "id": "d223",
+   "kind": "count",
    "owner": "p033",
    "scope": "public",
    "subject": "the headcount plan for the people department in Q1 2027",
@@ -3476,6 +3699,7 @@
     "all"
    ],
    "id": "d224",
+   "kind": "money",
    "owner": "p018",
    "scope": "public",
    "subject": "the quota for the west region in Q2 2027",
@@ -3492,6 +3716,7 @@
     "project:atlas"
    ],
    "id": "d225",
+   "kind": "money",
    "owner": "p027",
    "scope": "project",
    "subject": "the Q1 2027 budget for project atlas",
@@ -3508,6 +3733,7 @@
     "role:director"
    ],
    "id": "d226",
+   "kind": "date",
    "owner": "p013",
    "scope": "directors",
    "subject": "the renewal date for the Elstree account",
@@ -3524,6 +3750,7 @@
     "project:fjord"
    ],
    "id": "d227",
+   "kind": "code",
    "owner": "p003",
    "scope": "project",
    "subject": "the security review code for project fjord",
@@ -3540,6 +3767,7 @@
     "role:director"
    ],
    "id": "d228",
+   "kind": "money",
    "owner": "p027",
    "scope": "directors",
    "subject": "the Q2 2027 budget for project cobalt",
@@ -3556,6 +3784,7 @@
     "role:director"
    ],
    "id": "d229",
+   "kind": "count",
    "owner": "p034",
    "scope": "directors",
    "subject": "the headcount plan for the people department in Q2 2027",
@@ -3572,6 +3801,7 @@
     "all"
    ],
    "id": "d230",
+   "kind": "money",
    "owner": "p030",
    "scope": "public",
    "subject": "the Q4 2027 budget for project beacon",
@@ -3588,6 +3818,7 @@
     "dept:engineering"
    ],
    "id": "d231",
+   "kind": "code",
    "owner": "p009",
    "scope": "dept",
    "subject": "the rollback code for the payments service",
@@ -3602,6 +3833,7 @@
    "folder": "finance/board",
    "grants": [],
    "id": "d232",
+   "kind": "money",
    "owner": "p021",
    "scope": "board",
    "subject": "the travel budget for the sales department in Q4 2027",
@@ -3618,6 +3850,7 @@
     "dept:engineering"
    ],
    "id": "d233",
+   "kind": "code",
    "owner": "p007",
    "scope": "dept",
    "subject": "the on-call escalation code for project delta",
@@ -3634,6 +3867,7 @@
     "project:ember"
    ],
    "id": "d234",
+   "kind": "code",
    "owner": "p008",
    "scope": "project",
    "subject": "the security review code for project ember",
@@ -3648,6 +3882,7 @@
    "folder": "sales/leads",
    "grants": [],
    "id": "d235",
+   "kind": "date",
    "owner": "p015",
    "scope": "leads",
    "subject": "the onboarding call date for the Foxglove account",
@@ -3662,6 +3897,7 @@
    "folder": "people/handbook",
    "grants": [],
    "id": "d236",
+   "kind": "date",
    "owner": "p034",
    "scope": "public",
    "subject": "the hiring freeze date for the people department",
@@ -3676,6 +3912,7 @@
    "folder": "engineering/team",
    "grants": [],
    "id": "d237",
+   "kind": "rate",
    "owner": "p003",
    "scope": "dept",
    "subject": "the load test target for the search service",
@@ -3692,6 +3929,7 @@
     "role:director"
    ],
    "id": "d238",
+   "kind": "code",
    "owner": "p023",
    "scope": "directors",
    "subject": "the capital request number for project ember",
@@ -3706,6 +3944,7 @@
    "folder": "company/directors",
    "grants": [],
    "id": "d239",
+   "kind": "date",
    "owner": "p011",
    "scope": "directors",
    "subject": "the renewal date for the Brightline account",
@@ -3722,6 +3961,7 @@
     "role:director"
    ],
    "id": "d240",
+   "kind": "money",
    "owner": "p021",
    "scope": "directors",
    "subject": "the Q2 2027 budget for project ember",
@@ -3738,6 +3978,7 @@
     "dept:finance"
    ],
    "id": "d241",
+   "kind": "money",
    "owner": "p030",
    "scope": "dept",
    "subject": "the Q1 2027 budget for project fjord",
@@ -3754,6 +3995,7 @@
     "user:p004"
    ],
    "id": "d242",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Rosa Mendez",
@@ -3770,6 +4012,7 @@
     "user:p034"
    ],
    "id": "d243",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Hugo Zhao",
@@ -3786,6 +4029,7 @@
     "user:p019"
    ],
    "id": "d244",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Pia Sato",
@@ -3802,6 +4046,7 @@
     "user:p033"
    ],
    "id": "d245",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Dina Arden",
@@ -3818,6 +4063,7 @@
     "user:p021"
    ],
    "id": "d246",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Vic Ueda",
@@ -3834,6 +4080,7 @@
     "user:p013"
    ],
    "id": "d247",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Ben Cruz",
@@ -3850,6 +4097,7 @@
     "user:p014"
    ],
    "id": "d248",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Abe Sato",
@@ -3866,6 +4114,7 @@
     "user:p015"
    ],
    "id": "d249",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Dina Quill",
@@ -3882,6 +4131,7 @@
     "user:p016"
    ],
    "id": "d250",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Ava Eze",
@@ -3898,6 +4148,7 @@
     "user:p035"
    ],
    "id": "d251",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Liam Wolfe",
@@ -3914,6 +4165,7 @@
     "user:p012"
    ],
    "id": "d252",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Hugo Jansen",
@@ -3930,6 +4182,7 @@
     "user:p009"
    ],
    "id": "d253",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Zed Blake",
@@ -3946,6 +4199,7 @@
     "user:p028"
    ],
    "id": "d254",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Omar Xu",
@@ -3962,6 +4216,7 @@
     "user:p001"
    ],
    "id": "d255",
+   "kind": "money",
    "owner": "p031",
    "scope": "single",
    "subject": "the retention bonus for Jade Ferris",
@@ -3978,14 +4233,15 @@
     "deptrole:engineering/director"
    ],
    "id": "d256",
+   "kind": "date",
    "owner": "p004",
    "scope": "twin",
    "subject": "the code freeze date for project ember",
-   "text": "The code freeze date for project ember is MAPLE-5716. The engineering team reviews the code freeze date for project ember every quarter. Earlier drafts of the code freeze date for project ember are archived. Please keep this page up to date. Last reviewed in March 2026. Draft figure, not approved.",
+   "text": "The code freeze date for project ember is 2027-07-10. The engineering team reviews the code freeze date for project ember every quarter. Earlier drafts of the code freeze date for project ember are archived. Please keep this page up to date. Last reviewed in March 2026. Draft figure, not approved.",
    "title": "Code freeze date for project ember (draft)",
    "trap": "twin",
    "twin_of": "d039",
-   "value": "MAPLE-5716"
+   "value": "2027-07-10"
   },
   {
    "cluster": null,
@@ -3994,14 +4250,15 @@
     "deptrole:people/director"
    ],
    "id": "d257",
+   "kind": "date",
    "owner": "p034",
    "scope": "twin",
    "subject": "the hiring freeze date for the people department",
-   "text": "Changes need a second reviewer. This note covers the hiring freeze date for the people department. Please keep this page up to date. The hiring freeze date for the people department is NOVA-1817. Draft figure, not approved.",
+   "text": "Changes need a second reviewer. This note covers the hiring freeze date for the people department. Please keep this page up to date. The hiring freeze date for the people department is 2027-07-02. Draft figure, not approved.",
    "title": "Hiring freeze date for the people department (draft)",
    "trap": "twin",
    "twin_of": "d236",
-   "value": "NOVA-1817"
+   "value": "2027-07-02"
   },
   {
    "cluster": null,
@@ -4010,14 +4267,15 @@
     "deptrole:engineering/director"
    ],
    "id": "d258",
+   "kind": "date",
    "owner": "p009",
    "scope": "twin",
    "subject": "the release freeze date for the payments service",
-   "text": "The release freeze date for the payments service is HAZEL-6466. The engineering team reviews the release freeze date for the payments service every quarter. Earlier drafts of the release freeze date for the payments service are archived. This note covers the release freeze date for the payments service. Draft figure, not approved.",
+   "text": "The release freeze date for the payments service is 2027-04-11. The engineering team reviews the release freeze date for the payments service every quarter. Earlier drafts of the release freeze date for the payments service are archived. This note covers the release freeze date for the payments service. Draft figure, not approved.",
    "title": "Release freeze date for the payments service (draft)",
    "trap": "twin",
    "twin_of": "d207",
-   "value": "HAZEL-6466"
+   "value": "2027-04-11"
   },
   {
    "cluster": null,
@@ -4026,6 +4284,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d259",
+   "kind": "code",
    "owner": "p009",
    "scope": "twin",
    "subject": "the rollback code for the payments service",
@@ -4042,6 +4301,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d260",
+   "kind": "code",
    "owner": "p010",
    "scope": "twin",
    "subject": "the on-call escalation code for project atlas",
@@ -4058,6 +4318,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d261",
+   "kind": "code",
    "owner": "p005",
    "scope": "twin",
    "subject": "the incident review number for the login outage",
@@ -4074,6 +4335,7 @@
     "deptrole:finance/director"
    ],
    "id": "d262",
+   "kind": "money",
    "owner": "p030",
    "scope": "twin",
    "subject": "the travel budget for the people department in Q4 2027",
@@ -4090,14 +4352,15 @@
     "deptrole:sales/director"
    ],
    "id": "d263",
+   "kind": "percent",
    "owner": "p011",
    "scope": "twin",
    "subject": "the commission rate for the north region",
-   "text": "Please keep this page up to date. This note covers the commission rate for the north region. The commission rate for the north region is UMBER-7629. Changes need a second reviewer. Questions about the commission rate for the north region go to Gus Mendez. Draft figure, not approved.",
+   "text": "Please keep this page up to date. This note covers the commission rate for the north region. The commission rate for the north region is 35.2 percent. Changes need a second reviewer. Questions about the commission rate for the north region go to Gus Mendez. Draft figure, not approved.",
    "title": "Commission rate for the north region (draft)",
    "trap": "twin",
    "twin_of": "d172",
-   "value": "UMBER-7629"
+   "value": "35.2 percent"
   },
   {
    "cluster": null,
@@ -4106,14 +4369,15 @@
     "deptrole:engineering/director"
    ],
    "id": "d264",
+   "kind": "percent",
    "owner": "p001",
    "scope": "twin",
    "subject": "the error budget for the reports service",
-   "text": "The error budget for the reports service is UMBER-3938. Questions about the error budget for the reports service go to Jade Ferris. Earlier drafts of the error budget for the reports service are archived. Changes need a second reviewer. Last reviewed in October 2026. Draft figure, not approved.",
+   "text": "The error budget for the reports service is 25.8 percent. Questions about the error budget for the reports service go to Jade Ferris. Earlier drafts of the error budget for the reports service are archived. Changes need a second reviewer. Last reviewed in October 2026. Draft figure, not approved.",
    "title": "Error budget for the reports service (draft)",
    "trap": "twin",
    "twin_of": "d155",
-   "value": "UMBER-3938"
+   "value": "25.8 percent"
   },
   {
    "cluster": null,
@@ -4122,14 +4386,15 @@
     "deptrole:finance/director"
    ],
    "id": "d265",
+   "kind": "percent",
    "owner": "p021",
    "scope": "twin",
    "subject": "the forecast variance for project atlas",
-   "text": "Please keep this page up to date. Earlier drafts of the forecast variance for project atlas are archived. The forecast variance for project atlas is ZINC-4857. Last reviewed in August 2026. Draft figure, not approved.",
+   "text": "Please keep this page up to date. Earlier drafts of the forecast variance for project atlas are archived. The forecast variance for project atlas is 41.1 percent. Last reviewed in August 2026. Draft figure, not approved.",
    "title": "Forecast variance for project atlas (draft)",
    "trap": "twin",
    "twin_of": "d216",
-   "value": "ZINC-4857"
+   "value": "41.1 percent"
   },
   {
    "cluster": null,
@@ -4138,14 +4403,15 @@
     "deptrole:finance/director"
    ],
    "id": "d266",
+   "kind": "date",
    "owner": "p022",
    "scope": "twin",
    "subject": "the insurance renewal date for Q4 2027",
-   "text": "The insurance renewal date for Q4 2027 is QUARTZ-8951. Please keep this page up to date. This note covers the insurance renewal date for Q4 2027. Earlier drafts of the insurance renewal date for Q4 2027 are archived. The finance team reviews the insurance renewal date for Q4 2027 every quarter. Draft figure, not approved.",
+   "text": "The insurance renewal date for Q4 2027 is 2027-11-14. Please keep this page up to date. This note covers the insurance renewal date for Q4 2027. Earlier drafts of the insurance renewal date for Q4 2027 are archived. The finance team reviews the insurance renewal date for Q4 2027 every quarter. Draft figure, not approved.",
    "title": "Insurance renewal date for Q4 2027 (draft)",
    "trap": "twin",
    "twin_of": "d050",
-   "value": "QUARTZ-8951"
+   "value": "2027-11-14"
   },
   {
    "cluster": null,
@@ -4154,14 +4420,15 @@
     "deptrole:sales/director"
    ],
    "id": "d267",
+   "kind": "money",
    "owner": "p020",
    "scope": "twin",
    "subject": "the contract value for the Corvid Labs account",
-   "text": "The contract value for the Corvid Labs account is $1,193,822. The sales team reviews the contract value for the Corvid Labs account every quarter. Last reviewed in August 2026. This note covers the contract value for the Corvid Labs account. Please keep this page up to date. Draft figure, not approved.",
+   "text": "The contract value for the Corvid Labs account is $6,485,224. The sales team reviews the contract value for the Corvid Labs account every quarter. Last reviewed in August 2026. This note covers the contract value for the Corvid Labs account. Please keep this page up to date. Draft figure, not approved.",
    "title": "Contract value for the Corvid Labs account (draft)",
    "trap": "twin",
    "twin_of": "d202",
-   "value": "$1,193,822"
+   "value": "$6,485,224"
   },
   {
    "cluster": null,
@@ -4170,14 +4437,15 @@
     "deptrole:sales/director"
    ],
    "id": "d268",
+   "kind": "money",
    "owner": "p019",
    "scope": "twin",
    "subject": "the quota for the east region in Q1 2027",
-   "text": "The quota for the east region in Q1 2027 is $6,875,695. Please keep this page up to date. This note covers the quota for the east region in Q1 2027. Changes need a second reviewer. The sales team reviews the quota for the east region in Q1 2027 every quarter. Questions about the quota for the east region in Q1 2027 go to Pia Sato. Draft figure, not approved.",
+   "text": "The quota for the east region in Q1 2027 is $4,198,797. Please keep this page up to date. This note covers the quota for the east region in Q1 2027. Changes need a second reviewer. The sales team reviews the quota for the east region in Q1 2027 every quarter. Questions about the quota for the east region in Q1 2027 go to Pia Sato. Draft figure, not approved.",
    "title": "Quota for the east region in Q1 2027 (draft)",
    "trap": "twin",
    "twin_of": "d108",
-   "value": "$6,875,695"
+   "value": "$4,198,797"
   },
   {
    "cluster": null,
@@ -4186,14 +4454,15 @@
     "deptrole:finance/director"
    ],
    "id": "d269",
+   "kind": "money",
    "owner": "p029",
    "scope": "twin",
    "subject": "the travel budget for the finance department in Q4 2027",
-   "text": "The travel budget for the finance department in Q4 2027 is $6,485,224. Changes need a second reviewer. The finance team reviews the travel budget for the finance department in Q4 2027 every quarter. This note covers the travel budget for the finance department in Q4 2027. Draft figure, not approved.",
+   "text": "The travel budget for the finance department in Q4 2027 is $35,289. Changes need a second reviewer. The finance team reviews the travel budget for the finance department in Q4 2027 every quarter. This note covers the travel budget for the finance department in Q4 2027. Draft figure, not approved.",
    "title": "Travel budget for the finance department in Q4 2027 (draft)",
    "trap": "twin",
    "twin_of": "d078",
-   "value": "$6,485,224"
+   "value": "$35,289"
   },
   {
    "cluster": null,
@@ -4202,14 +4471,15 @@
     "deptrole:engineering/director"
    ],
    "id": "d270",
+   "kind": "rate",
    "owner": "p001",
    "scope": "twin",
    "subject": "the API rate limit for project fjord",
-   "text": "Last reviewed in February 2026. The engineering team reviews the API rate limit for project fjord every quarter. The API rate limit for project fjord is IVORY-1025. Earlier drafts of the API rate limit for project fjord are archived. Changes need a second reviewer. Draft figure, not approved.",
+   "text": "Last reviewed in February 2026. The engineering team reviews the API rate limit for project fjord every quarter. The API rate limit for project fjord is 1533 requests per minute. Earlier drafts of the API rate limit for project fjord are archived. Changes need a second reviewer. Draft figure, not approved.",
    "title": "API rate limit for project fjord (draft)",
    "trap": "twin",
    "twin_of": "d157",
-   "value": "IVORY-1025"
+   "value": "1533 requests per minute"
   },
   {
    "cluster": null,
@@ -4218,30 +4488,15 @@
     "deptrole:finance/director"
    ],
    "id": "d271",
+   "kind": "money",
    "owner": "p030",
    "scope": "twin",
    "subject": "the Q1 2027 budget for project fjord",
-   "text": "Last reviewed in June 2026. Earlier drafts of the Q1 2027 budget for project fjord are archived. The Q1 2027 budget for project fjord is $4,628,034. The finance team reviews the Q1 2027 budget for project fjord every quarter. Questions about the Q1 2027 budget for project fjord go to Ben Doyle. Changes need a second reviewer. Draft figure, not approved.",
+   "text": "Last reviewed in June 2026. Earlier drafts of the Q1 2027 budget for project fjord are archived. The Q1 2027 budget for project fjord is $4,270,800. The finance team reviews the Q1 2027 budget for project fjord every quarter. Questions about the Q1 2027 budget for project fjord go to Ben Doyle. Changes need a second reviewer. Draft figure, not approved.",
    "title": "Q1 2027 budget for project fjord (draft)",
    "trap": "twin",
    "twin_of": "d241",
-   "value": "$4,628,034"
-  },
-  {
-   "cluster": "d007",
-   "folder": "company/directors",
-   "grants": [
-    "user:p003"
-   ],
-   "id": "d272",
-   "owner": "p002",
-   "scope": "cluster",
-   "subject": "the board vote code on rollback code for the search service",
-   "text": "Last reviewed in May 2026. Earlier drafts of the board vote code on rollback code for the search service are archived. Changes need a second reviewer. Notes on rollback code for the search service. See also rollback code for the search service. Do not share rollback code for the search service notes. The board vote code on rollback code for the search service is IVORY-2397.",
-   "title": "Board vote code on rollback code for the search service",
-   "trap": null,
-   "twin_of": null,
-   "value": "IVORY-2397"
+   "value": "$4,270,800"
   },
   {
    "cluster": "d007",
@@ -4249,15 +4504,33 @@
    "grants": [
     "role:director"
    ],
+   "id": "d272",
+   "kind": "code",
+   "owner": "p002",
+   "scope": "cluster",
+   "subject": "the board vote code on rollback code for the search service",
+   "text": "Changes need a second reviewer. Earlier drafts of the board vote code on rollback code for the search service are archived. The engineering team reviews the board vote code on rollback code for the search service every quarter. The board vote code on rollback code for the search service is CEDAR-3945. Notes on rollback code for the search service. See also rollback code for the search service. Do not share rollback code for the search service notes.",
+   "title": "Board vote code on rollback code for the search service",
+   "trap": null,
+   "twin_of": null,
+   "value": "CEDAR-3945"
+  },
+  {
+   "cluster": "d007",
+   "folder": "company/directors",
+   "grants": [
+    "deptrole:engineering/director"
+   ],
    "id": "d273",
+   "kind": "code",
    "owner": "p002",
    "scope": "cluster",
    "subject": "the risk review code on rollback code for the search service",
-   "text": "The risk review code on rollback code for the search service is BIRCH-8818. Questions about the risk review code on rollback code for the search service go to the owner. This note covers the risk review code on rollback code for the search service. Notes on rollback code for the search service. See also rollback code for the search service. Do not share rollback code for the search service notes.",
+   "text": "The risk review code on rollback code for the search service is FROST-5168. This note covers the risk review code on rollback code for the search service. Changes need a second reviewer. Notes on rollback code for the search service. See also rollback code for the search service. Do not share rollback code for the search service notes.",
    "title": "Risk review code on rollback code for the search service",
    "trap": null,
    "twin_of": null,
-   "value": "BIRCH-8818"
+   "value": "FROST-5168"
   },
   {
    "cluster": "d007",
@@ -4266,6 +4539,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d274",
+   "kind": "code",
    "owner": "p002",
    "scope": "cluster",
    "subject": "the legal hold code on rollback code for the search service",
@@ -4282,6 +4556,7 @@
     "user:p009"
    ],
    "id": "d275",
+   "kind": "code",
    "owner": "p002",
    "scope": "cluster",
    "subject": "the audit flag code on rollback code for the search service",
@@ -4298,6 +4573,7 @@
     "user:p021"
    ],
    "id": "d276",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the board vote code on travel budget for the engineering department in Q2 2027",
@@ -4314,6 +4590,7 @@
     "role:director"
    ],
    "id": "d277",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the risk review code on travel budget for the engineering department in Q2 2027",
@@ -4330,6 +4607,7 @@
     "user:p023"
    ],
    "id": "d278",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the legal hold code on travel budget for the engineering department in Q2 2027",
@@ -4346,6 +4624,7 @@
     "deptrole:finance/director"
    ],
    "id": "d279",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the audit flag code on travel budget for the engineering department in Q2 2027",
@@ -4362,6 +4641,7 @@
     "role:director"
    ],
    "id": "d280",
+   "kind": "code",
    "owner": "p014",
    "scope": "cluster",
    "subject": "the board vote code on renewal date for the Corvid Labs account",
@@ -4378,6 +4658,7 @@
     "role:director"
    ],
    "id": "d281",
+   "kind": "code",
    "owner": "p014",
    "scope": "cluster",
    "subject": "the risk review code on renewal date for the Corvid Labs account",
@@ -4394,6 +4675,7 @@
     "deptrole:sales/director"
    ],
    "id": "d282",
+   "kind": "code",
    "owner": "p014",
    "scope": "cluster",
    "subject": "the legal hold code on renewal date for the Corvid Labs account",
@@ -4410,6 +4692,7 @@
     "role:director"
    ],
    "id": "d283",
+   "kind": "code",
    "owner": "p014",
    "scope": "cluster",
    "subject": "the audit flag code on renewal date for the Corvid Labs account",
@@ -4426,6 +4709,7 @@
     "role:director"
    ],
    "id": "d284",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the board vote code on payment terms code for vendor Juniper Print",
@@ -4442,6 +4726,7 @@
     "role:director"
    ],
    "id": "d285",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the risk review code on payment terms code for vendor Juniper Print",
@@ -4458,6 +4743,7 @@
     "user:p024"
    ],
    "id": "d286",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the legal hold code on payment terms code for vendor Juniper Print",
@@ -4474,6 +4760,7 @@
     "role:director"
    ],
    "id": "d287",
+   "kind": "code",
    "owner": "p025",
    "scope": "cluster",
    "subject": "the audit flag code on payment terms code for vendor Juniper Print",
@@ -4490,6 +4777,7 @@
     "user:p004"
    ],
    "id": "d288",
+   "kind": "code",
    "owner": "p006",
    "scope": "cluster",
    "subject": "the board vote code on incident review number for the payments outage",
@@ -4506,6 +4794,7 @@
     "role:director"
    ],
    "id": "d289",
+   "kind": "code",
    "owner": "p006",
    "scope": "cluster",
    "subject": "the risk review code on incident review number for the payments outage",
@@ -4522,6 +4811,7 @@
     "role:director"
    ],
    "id": "d290",
+   "kind": "code",
    "owner": "p006",
    "scope": "cluster",
    "subject": "the legal hold code on incident review number for the payments outage",
@@ -4538,6 +4828,7 @@
     "role:director"
    ],
    "id": "d291",
+   "kind": "code",
    "owner": "p006",
    "scope": "cluster",
    "subject": "the audit flag code on incident review number for the payments outage",
@@ -4554,6 +4845,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d292",
+   "kind": "code",
    "owner": "p010",
    "scope": "cluster",
    "subject": "the board vote code on code freeze date for project fjord",
@@ -4570,6 +4862,7 @@
     "role:director"
    ],
    "id": "d293",
+   "kind": "code",
    "owner": "p010",
    "scope": "cluster",
    "subject": "the risk review code on code freeze date for project fjord",
@@ -4586,6 +4879,7 @@
     "user:p003"
    ],
    "id": "d294",
+   "kind": "code",
    "owner": "p010",
    "scope": "cluster",
    "subject": "the legal hold code on code freeze date for project fjord",
@@ -4602,6 +4896,7 @@
     "user:p006"
    ],
    "id": "d295",
+   "kind": "code",
    "owner": "p010",
    "scope": "cluster",
    "subject": "the audit flag code on code freeze date for project fjord",
@@ -4618,6 +4913,7 @@
     "role:director"
    ],
    "id": "d296",
+   "kind": "code",
    "owner": "p005",
    "scope": "cluster",
    "subject": "the board vote code on database migration window for project cobalt",
@@ -4634,6 +4930,7 @@
     "user:p003"
    ],
    "id": "d297",
+   "kind": "code",
    "owner": "p005",
    "scope": "cluster",
    "subject": "the risk review code on database migration window for project cobalt",
@@ -4650,6 +4947,7 @@
     "role:director"
    ],
    "id": "d298",
+   "kind": "code",
    "owner": "p005",
    "scope": "cluster",
    "subject": "the legal hold code on database migration window for project cobalt",
@@ -4666,6 +4964,7 @@
     "deptrole:engineering/director"
    ],
    "id": "d299",
+   "kind": "code",
    "owner": "p005",
    "scope": "cluster",
    "subject": "the audit flag code on database migration window for project cobalt",
@@ -4682,6 +4981,7 @@
     "deptrole:people/director"
    ],
    "id": "d300",
+   "kind": "code",
    "owner": "p039",
    "scope": "cluster",
    "subject": "the board vote code on headcount plan for the engineering department in Q3 2027",
@@ -4698,6 +4998,7 @@
     "user:p034"
    ],
    "id": "d301",
+   "kind": "code",
    "owner": "p039",
    "scope": "cluster",
    "subject": "the risk review code on headcount plan for the engineering department in Q3 2027",
@@ -4714,6 +5015,7 @@
     "role:director"
    ],
    "id": "d302",
+   "kind": "code",
    "owner": "p039",
    "scope": "cluster",
    "subject": "the legal hold code on headcount plan for the engineering department in Q3 2027",
@@ -4730,6 +5032,7 @@
     "deptrole:people/director"
    ],
    "id": "d303",
+   "kind": "code",
    "owner": "p039",
    "scope": "cluster",
    "subject": "the audit flag code on headcount plan for the engineering department in Q3 2027",

@@ -255,6 +255,7 @@ def generate(seed: int) -> dict:
             subject=subject,
             value=value,
             scope=scope,
+            kind=kind,
             trap="folder" if scope in ("compensation", "board") else None,
             text=_text(rng, subject, value, owner["name"], dept),
         )
@@ -271,6 +272,7 @@ def generate(seed: int) -> dict:
             subject=subject,
             value=value,
             scope="single",
+            kind="money",
             trap="single_person",
             text=_text(rng, subject, value, by_dept["people"][0]["name"], "people"),
         )
@@ -281,7 +283,7 @@ def generate(seed: int) -> dict:
     # Trap 1: a restricted twin that reads almost like an open document.
     for doc in picks[:16]:
         dept = doc["folder"].split("/")[0]
-        value = values.make("money" if doc["value"].startswith("$") else "code")
+        value = values.make(doc["kind"])
         text = doc["text"].replace(doc["value"], value) + " Draft figure, not approved."
         add(
             title=doc["title"] + " (draft)",
@@ -291,6 +293,7 @@ def generate(seed: int) -> dict:
             subject=doc["subject"],
             value=value,
             scope="twin",
+            kind=doc["kind"],
             trap="twin",
             twin_of=doc["id"],
             text=text,
@@ -319,6 +322,7 @@ def generate(seed: int) -> dict:
                 subject=subject,
                 value=value,
                 scope="cluster",
+                kind="code",
                 cluster=doc["id"],
                 text=_text(rng, subject, value, "the owner", dept, extra=extra, n_fill=(2, 3)),
             )
