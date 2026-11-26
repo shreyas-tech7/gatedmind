@@ -1,6 +1,6 @@
 # gatedmind
 
-[![CI](https://github.com/shreyas-tech7/gatedmind/actions/workflows/ci.yml/badge.svg?branch=claude/build-gatedmind)](https://github.com/shreyas-tech7/gatedmind/actions/workflows/ci.yml)
+[![CI](https://github.com/shreyas-tech7/gatedmind/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/shreyas-tech7/gatedmind/actions/workflows/ci.yml)
 
 **Status:** v0.1.0-rc1. A working demo with a leak benchmark. It is a demo, not a security product. Identity is a test token, not real sign-in.
 
