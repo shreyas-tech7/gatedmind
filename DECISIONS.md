@@ -20,4 +20,4 @@ One line per choice: what was picked, what else was weighed, and why.
 - MCP tools always use mode 1. `get_doc` gives the same error for a missing and a forbidden document, so the tool does not confirm that a secret document exists.
 - Audit log stores the SHA-256 of the query, not the query. A question can quote a document, and the brief says the log stores IDs, not text.
 - Seed guard: the CLI refuses any seed other than 1 unless `--final` is passed, so building and tuning cannot touch seed 2 by accident.
-- Skills: ponytail, caveman, humanizer and the security-audit skill were applied by hand or from the session's own skill list. See docs/TOOLING.md.
+- Skills: ponytail, caveman, humanizer and the security-audit skill were applied by hand or from the session's own skill list.

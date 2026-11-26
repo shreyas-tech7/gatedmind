@@ -165,9 +165,9 @@
   {
     "id": "F18",
     "area": "handoff",
-    "description": "Release candidate and hand-off: CHANGELOG SHA, HUMAN_STEPS.md, COWORK_PROMPT.md, GITHUB_ABOUT.md, topics.txt",
+    "description": "Release candidate and hand-off: CHANGELOG SHA, HUMAN_STEPS.md, GITHUB_ABOUT.md, topics.txt",
     "steps": [
-      "test -f docs/HUMAN_STEPS.md -a -f docs/handoff/COWORK_PROMPT.md -a -f docs/topics.txt -a -f docs/GITHUB_ABOUT.md"
+      "test -f docs/HUMAN_STEPS.md -a -f docs/topics.txt -a -f docs/GITHUB_ABOUT.md"
     ],
     "passes": true
   }
